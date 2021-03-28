@@ -1,0 +1,247 @@
+@import url('fuentes.css');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f3f3f3;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+
+      /*----- HEADER -----*/
+
+
+header{
+  padding: 40px;
+}
+
+header .logo{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header .logo p{
+  color: #9B9B9B;
+}
+
+header form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+header .barra-busqueda{
+  width: 70%;
+  height: 40px;
+  line-height: 40px;/*lo que esta dentro del input se centre*/
+  background: #fff;
+  padding: 0px 20px;
+  border-radius: 100px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+header .categorias{
+  display: flex; /*flexbox*/
+  justify-content: center;
+  flex-wrap: wrap;/*encerramos elementos y sino alcanazan en la linea se ponen abajo*/
+}
+
+header .categorias a{
+  color: #9B9B9B;
+  margin: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;/*ponemos fuentes en negritas*/
+}
+
+header .categorias a.activo{
+  color: #000;
+}
+
+
+
+      /*----- GRID -----*/
+
+
+.grid{
+  position: relative;/*importante*/
+  width: 100%;/*q abarque todo el contenedor*/
+  opacity: 0; /*efecto cuando carga la pagina, con javaScript*/
+  transition: opacity 0.5s linear 1s; /*/*efecto cuando carga la pagina, con javaScript*/
+}
+
+.grid.imagenes-cargadas{/*funciona con javaScript*/
+  opacity: 1;
+} 
+
+.grid .item{
+  position: absolute;/*el efecto de la libreria, transicion(por eso no se usa css-grid o flexbox)*/
+  display: block;
+  padding: 0px;
+  margin: 10px;/*margen a la izquierda y derecha de 10px, en total serian20px y lo usamos como resta*/
+  width: calc(33.333333% - 20px);/*contenedor, clacula el 33 y le restamos 20px, para que alcance las 3 img*/
+}
+
+.grdi .item-contenido{
+  position: relative; /*esta propiedad lo pide la libreria*/
+}
+
+.grid .item img{
+  width: 100%;/*respeta el tamaño*/
+  cursor: pointer;
+  vertical-align: top;
+}
+
+
+
+      /*----- Overlay -----*/
+
+.overlay{
+  position: fixed;/*para q este fija en pantalla*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .9);
+  width: 100%;
+  height: 100vh;/*abarca el tamaño del dispositivo*/
+  display: none;/*antes era flex, despues se cambio para q no se muestre*/
+  align-items: center;/*centra de forma vertical*/
+  justify-content: center;/*centra de forma horizontal*/
+  flex-direction: column; /*ponemos el texto debajo*/
+}
+
+.overlay.activo{/*cuando tenga la clase activo quiero q se muestre*/
+  display: flex;
+}
+
+.overlay img{
+  max-width: 100%;
+}
+
+.overlay .descripcion{
+  display: block;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+.contenedor-img{
+  position: relative;  
+}
+
+.overlay #btn-cerrar-popup{
+  background: none;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position: absolute;/*se escribe absolute xq al contenedor de la img ya tiene un position: relative*/
+  right: -20px;/*a la derecha de la img y afuera*/
+  top: -20px;/*arriba*/
+}
+
+
+ /*----- Footer -----*/
+
+ footer .redes-sociales{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: unset;/*para q los iconos se acomode a bajo en dispositivos moviles*/  
+}
+
+footer .redes-sociales a{
+  display: block;/*para dar tamaño en ancho y alto*/
+  width: 60px;
+  height: 60px;
+  background: #000;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+  border-radius: 100px;
+  transition: .3s ease all;
+}
+
+
+footer .redes-sociales .twitter{
+  background: #1da1f2;
+}
+
+footer .redes-sociales .facebook{
+  background: #3b5998;
+}
+
+footer .redes-sociales .instagram{
+  background: #c13584;
+}
+
+footer .redes-sociales a i{
+  font-size: 20px;
+  line-height: 60px;/*alto de linea, corresponde a (footer .redes-sociales a) el alto y lo ancho */
+}
+
+footer .contenedor-icono:hover a{
+  animation: icono .5s ease;
+}
+
+@keyframes icono{
+  from{
+    transform: rotate3d(0,0,0,0);
+  }
+  to{
+    transform: rotate3d(0,1,0,360deg);
+  }
+}
+
+footer .creado-por{
+  margin-bottom: 40px;/**/
+  text-align: center;
+  font-size: 15px;
+  color: #c13584;
+}
+
+footer .creado-por a{
+  color: #000;
+  font-style: italic;
+}
+
+footer .creado-por a:hover{
+  text-decoration: underline;
+}
+
+    
+
+      /*Media Query*/
+
+
+@media screen and (max-width: 700px){
+  .grid .item {
+    width: calc(50% - 20px);
+  }
+
+  header .barra-busqueda{
+    width: 100%;
+  }
+}
