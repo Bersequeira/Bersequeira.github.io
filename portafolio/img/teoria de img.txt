@@ -1,1 +1,0 @@
-las img se usan de untamaño de 400*400, y si las img son mas grandes, lo alto y el ancho tienen que ser lo mismo
