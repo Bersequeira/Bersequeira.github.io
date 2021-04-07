@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Portafolio - Bernardo Suarez</title>
+</head>
+<body>      
+    <div class="contenedor">
+       <header>
+            <div class="logo">
+              <h1>Bernardo Suarez</h1>
+              <p>Futuro Programador</p>
+            </div>
+            <form action="">
+              <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+            </div>
+        </header>
+            
+       <section class="grid" id="grid">
+          <div class="item"
+           data-categoria="ciudades" 
+           data-etiquetas="ciudades autos carros calles"     
+           data-descripcion="1.Autos"     
+          >
+                <div class="item-contenido">
+                  <img src="img/ciudad1.png" alt="">
+                </div>
+          </div>        
+
+          <div class="item"
+           data-categoria="personas" 
+           data-etiquetas="personas mujeres"     
+           data-descripcion="2.Bella"     
+          >
+                <div class="item-contenido">
+                  <img src="img/persona1.png" alt="">
+                </div>                
+          </div>    
+
+          <div class="item"
+           data-categoria="paisajes" 
+           data-etiquetas="paisajes montañas mar playas"     
+           data-descripcion="3.Hermoso"     
+          >
+                <div class="item-contenido">
+                  <img src="img/paisaje1.png" alt="">
+                </div>
+          </div>  
+
+          <div class="item"
+           data-categoria="animales" 
+           data-etiquetas="animales leones"     
+           data-descripcion="4.El rey"     
+          >
+                <div class="item-contenido">
+                  <img src="img/animal1.png" alt="">
+                </div>
+          </div>     
+
+          <div class="item"
+           data-categoria="animales" 
+           data-etiquetas="animales panda"     
+           data-descripcion="5.Escalando "     
+          >
+                <div class="item-contenido">
+                  <img src="img/animal2.png" alt="">
+                </div>
+          </div>  
+
+          <div class="item"
+           data-categoria="ciudades" 
+           data-etiquetas="ciudades autos carros calles"     
+           data-descripcion="6.La ciudad es bonita "     
+          >
+                <div class="item-contenido">
+                  <img src="img/ciudad2.png" alt="">
+                </div>
+          </div>   
+
+          <div class="item"
+           data-categoria="paisajes" 
+           data-etiquetas="paisajes montañas mar playas"     
+           data-descripcion="7.Que genial"     
+          >
+                <div class="item-contenido">
+                  <img src="img/paisaje2.png" alt="">
+                </div>
+          </div>    
+
+          <div class="item"
+           data-categoria="personas" 
+           data-etiquetas="personas mujeres"     
+           data-descripcion="8.Rojo"     
+          >
+                <div class="item-contenido">
+                  <img src="img/persona2.png" alt="">
+                </div>
+          </div>   
+
+          <div class="item"
+           data-categoria="naturaleza" 
+           data-etiquetas="hojas hiervas naturaleza"     
+           data-descripcion="9.Hiervas"     
+          >
+                <div class="item-contenido">
+                  <img src="img/naturaleza1.png" alt="">
+                </div>
+          </div>                                            
+       </section>
+
+      
+       <section class="overlay" id="overlay">
+        <div class="contenedor-img">
+          <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+          <img src="" alt=""> 
+        </div>
+        <p class="descripcion"></p>
+       </section>
+
+        <footer class="contenedor">
+          <div class="redes-sociales">
+            <div class="contenedor-icono">
+              <a href="escribir la direcion" target="_blank" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="contenedor-icono">
+              <a href="escribir la direcion" target="_blank" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="contenedor-icono">
+              <a href="escribir la direcion" target="_blank" class="instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="creado-por">
+            <p>Sitio diseñado por <a href="#">Bersuarez</a> - <a href="#">Sequeira</a></p>
+          </div>
+        </footer>
+    </div>      
+
+        <script src="js/web-animations.min.js"></script> <!--este orden rrespetarlo, para que funcione-->      
+        <script src="js/muuri.min.js"></script>          
+        <script src="js/main.js"></script>
+</body>
+</html>
