@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Portafolio CV - Ber</title>
-  <meta name="description"content="Hola bienvenid@ a mi Portafolio Profesional, soy Bersuarez, Desarrollador Web">  
+  <!-- Estyles -->
+  <link rel="stylesheet" href="css/style.css">
+   <!-- Carousel -->  
+   <link rel="stylesheet" href="css/glider.min.css">  
+   <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <title>Portafolio CV - jonmircha</title>
+  <meta name="description" content="Hola bienvenid@ a mi Portafolio Profesional, soy Bernardo Suarez, Desarrollador Web"><!--descripción del titulo, cunado lo busquen(si es otro proyecto tiene que ser otra descripcion, no poner la misma)-->
+  <link rel="canonical" href="..github"><!-- es importante, URL oficial, la principal; evitamos penalización -->
+  <link rel="favicon" href="....link github"><!--para ver la targeta cuando se comparta -->
+  <link rel="apple-touch-icon" href="....link github"><!-- para disposistivo apple -->
+  <meta name="theme-color" content="#d9006"><!-- para cambiar el color de la barra del navegador al que keramos, solo funciona en disposistivo movil -->
+  <meta name="twitter:card" content="summary"><!-- para diferentes tamaños y formatos, para las card -->
+  <meta property="og:type" content="website"><!-- para linkeding, esto es un sitio web -->
+  <meta property="og:title" name="twitter:title" content="Portafolio CV - BerSuarez"><!-- para twitter & linkeding -->
+  <meta property="og:description" name="twitter:description" content="Hola bienvenid@ a mi Portafolio Profesional, soy Bernardo Suarez, Desarrollador Web"><!--descripcion para twitter -->
+  <meta property="og:image" name="twitter:image" content="..link github ../assets/hero-image-home.jpg"><!-- para la imagen que acompaña la card, con la ruta de github -->
+  <meta property="og:url" name="twitter:url" content="..github"><!-- url del sitio y la ruta absoluta-->
 </head>
-
 <body>
   <header class="header">
     <section class="container">
@@ -29,15 +41,15 @@
       <nav class="menu">
         <a href="#inicio">Inicio</a>
         <a href="#acerca">Acerca</a>
-        <a href="#servicios">Servicios</a> 
+        <a href="#servicios">Servicios</a>
         <a href="#portafolio">Portafolio</a>
-        <a href="#testimonios">Tecnologias</a>
+        <a href="#testimonios">Tecnologías</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </section>
   </header>
   <section id="inicio" class="home">
-    <article class="hero-image" style="--hero-image: url('assets/hero-image-home.jpg'); --hero-attachment: fixed;">
+    <article class="hero-image" style="--hero-image: url('../assets/hero-image-home.jpg'); --hero-attachment: fixed;">
       <aside class="hero-image-opacity" style="--hero-opacity-color: var(--black-alpha-color);">
         <div class="hero-image-content">
           <h2 class="hero-image-title" style="--hero-text-color: var(--white-color);">
@@ -54,97 +66,298 @@
         <h1>Bernardo Suarez</h1>
         <h5>programador <i>web</i></h5>
       </aside>
-      <p>Me llamo Bernardo Ramon Suarez Sequeira soy de Nicaragua y vivo en Managua</p>
-      <p>Inicie en el mundo de la programacion en 2019 como auto didacta, obtuve cursos en diferentes plataformas de internet
-        para prepararme mejor. Estoy más orientado al <i>Frontend</i>, pero también estoy aprendiendo <i>Backend</i>.</p>
-      <p>Disfruto llevar a cabo la maquetación e interactividad de interfaces <i>web</i>, así como la optimización, para
-        el buen posicionamiento y el rendimiento de carga de sitios <i>web</i>.</p>      
+      <p>Me llamo Bernardo Ramón Suarez Sequeira soy de Nicaragua y vivo en Managua.</p>
+      <p>Inicie en el mundo de la programación en 2019 como auto didacta, obtuve cursos en diferentes plataformas de
+        internet
+        para prepararme mejor. Estoy más orientado al <i>Frontend</i>, pero también estoy aprendiendo <i>Backend</i>.
+      </p>
+      <p>Estoy constantemente capacitandonme y aprendiendo nuevas tecnologías. Por que si no entiendo algo pregunto si no se del tema investigo
+         pero puedes estar seguro, de mi compromiso para hacer un buen trabajo.
+      </p>
       <div class="text-center text-lg-left">
         <a class="btn" href="assets/CURRICULUM VITAE.pdf" target="_blank" rel="noopener">DESCARGA MI CV</a>
       </div>
     </article>
     <article>
-      <img class="gray-scale" src="assets/ber4.jpg" alt="Bersuarez">
+      <img class="gray-scale" src="assets/Bersuarez.jpg" alt="Bersuarez">
     </article>
     <article>
       <h2 class="text-center text-lg-left">Mis Habilidades</h2>
-      <div class="progress">      
-        <p>
-          <b><i>Html</i></b>
-          
-        </p>
-        <progress value="80" min="0" max="100"></progress>
-      </div>
       <div class="progress">
         <p>
-          <b><i>Css, Flexbox</i></b>
-          
-        </p>
-        <progress value="70" min="0" max="100"></progress>
-      </div>
-      <div class="progress">
-        <p>
-          <b><i>JavaScript</i></b>
-          
-        </p>
-        <progress value="70" min="0" max="100"></progress>
-      </div>
-      <div class="progress">
-        <p>
-          <b><i>Bootstrap</i></b>
-          
+          <b><i>Html, Css</i></b>
+
         </p>
         <progress value="75" min="0" max="100"></progress>
       </div>
       <div class="progress">
         <p>
-          <b><i>ReactJs</i> <i>(aprendiendo)</i></b>          
+          <b><i>Bootstrap</i></b>
+
         </p>
-        <progress value="40" min="0" max="100"></progress>
+        <progress value="60" min="0" max="100"></progress>
       </div>
       <div class="progress">
         <p>
-          <b><i>BD Sql</i></b>          
+          <b><i>JavaScript</i></b>
+
+        </p>
+        <progress value="80" min="0" max="100"></progress>
+      </div>
+      <div class="progress">
+        <p>
+          <b><i>ReactJs</i></b>
+
+        </p>
+        <progress value="60" min="0" max="100"></progress>
+      </div>     
+      <div class="progress">
+        <p>
+          <b><i>sqlBD, mongoBD</i></b>
+        </p>
+        <progress value="69" min="0" max="100"></progress>
+      </div>
+      <div class="progress">
+        <p>
+          <b><i>Github, Git</i></b>
         </p>
         <progress value="75" min="0" max="100"></progress>
       </div>
     </article>
   </section>
 
-    <!--Servicios-->
+  <!--Servicios-->
   <section id="servicios" class="services section bg-gray-light">
     <div class="container full-lg-screen">
       <h2 class="section-title">¿Qué te ofrezco?</h2>
-      <article class="service-card box-shadow-1">
-       
-        <svg height="24" viewBox="0 0 64 64" width="24" xmlns="http://www.w3.org/2000/svg"><g id="coding-database-web_design-programing-server" data-name="coding-database-web design-programing-server"><path d="m59 9v34h-54v-34a4.012 4.012 0 0 1 4-4h46a4.012 4.012 0 0 1 4 4z" fill="#ffdaaa"/><path d="m25 43h34v-34a34 34 0 0 1 -34 34z" fill="#ffc477"/><rect fill="#2488ff" height="10" rx="2" width="28" x="33" y="13"/><path d="m37 16h8v4h-8z" fill="#7ed63e"/><rect fill="#006df0" height="10" rx="2" width="28" x="33" y="23"/><path d="m37 26h8v4h-8z" fill="#7ed63e"/><rect fill="#57a4ff" height="10" rx="2" width="28" x="33" y="3"/><path d="m37 6h8v4h-8z" fill="#7ed63e"/><path d="m5 43v2a4.012 4.012 0 0 0 4 4h46a4.012 4.012 0 0 0 4-4v-2z" fill="#004fac"/><path d="m26 49h12v8h-12z" fill="#808285"/><path d="m19 57a2 2 0 0 0 -2 2v2h30v-2a2 2 0 0 0 -2-2z" fill="#58595b"/><path d="m26 49h12v2h-12z" fill="#6d6e71"/><path d="m59 23h-2a2.006 2.006 0 0 1 2 2v6a2.006 2.006 0 0 1 -2 2h2a2.006 2.006 0 0 0 2-2v-6a2.006 2.006 0 0 0 -2-2z" fill="#005ece"/><path d="m59 13h-2a2.006 2.006 0 0 1 2 2v6a2.006 2.006 0 0 1 -2 2h2a2.006 2.006 0 0 0 2-2v-6a2.006 2.006 0 0 0 -2-2z" fill="#006df0"/><path d="m59 3h-2a2.006 2.006 0 0 1 2 2v6a2.006 2.006 0 0 1 -2 2h2a2.006 2.006 0 0 0 2-2v-6a2.006 2.006 0 0 0 -2-2z" fill="#2488ff"/><g fill="#231f20"><path d="m21.168 14.555a1 1 0 0 0 1.387.277l3-2a1 1 0 0 0 0-1.664l-3-2a1 1 0 0 0 -1.11 1.664l1.755 1.168-1.752 1.168a1 1 0 0 0 -.28 1.387z"/><path d="m14.5 15.868a.988.988 0 0 0 .5.132 1 1 0 0 0 .869-.5l4-7a1 1 0 1 0 -1.737-1l-4 7a1 1 0 0 0 .368 1.368z"/><path d="m9 20h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z"/><path d="m9 24h14a1 1 0 0 0 0-2h-14a1 1 0 0 0 0 2z"/><path d="m15 20h14a1 1 0 0 0 0-2h-14a1 1 0 0 0 0 2z"/><path d="m9 32h8a1 1 0 0 0 0-2h-8a1 1 0 0 0 0 2z"/><path d="m23 32a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z"/><path d="m9 28h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z"/><path d="m29 26h-14a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2z"/><path d="m9 40h14a1 1 0 0 0 0-2h-14a1 1 0 0 0 0 2z"/><path d="m29 38h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/><path d="m9 36h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z"/><path d="m29 34h-14a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2z"/><path d="m33 45h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/><path d="m37 21h8a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-8a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h6v2h-6z"/><path d="m53 20a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z"/><path d="m49 20a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z"/><path d="m57 20a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z"/><path d="m45 25h-8a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1zm-1 4h-6v-2h6z"/><path d="m53 26a1 1 0 0 0 -1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0 -1-1z"/><path d="m49 26a1 1 0 0 0 -1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0 -1-1z"/><path d="m57 26a1 1 0 0 0 -1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0 -1-1z"/><path d="m37 11h8a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-8a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h6v2h-6z"/><path d="m53 10a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z"/><path d="m49 10a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z"/><path d="m57 10a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z"/><path d="m62 5a3.009 3.009 0 0 0 -3-3h-24a3.01 3.01 0 0 0 -2.82 2h-23.18a5 5 0 0 0 -5 5v36a5 5 0 0 0 5 5h16v6h-6a3.009 3.009 0 0 0 -3 3v2a1 1 0 0 0 1 1h30a1 1 0 0 0 1-1v-2a3.009 3.009 0 0 0 -3-3h-6v-6h16a5 5 0 0 0 5-5v-11.18a3.01 3.01 0 0 0 2-2.82v-6a2.974 2.974 0 0 0 -.78-2 2.974 2.974 0 0 0 .78-2v-6a2.974 2.974 0 0 0 -.78-2 2.974 2.974 0 0 0 .78-2zm-17 53a1 1 0 0 1 1 1v1h-28v-1a1 1 0 0 1 1-1zm-18-2v-6h10v6zm31-11a3.009 3.009 0 0 1 -3 3h-46a3.009 3.009 0 0 1 -3-3v-1h52zm0-3h-52v-33a3.009 3.009 0 0 1 3-3h23v5a2.974 2.974 0 0 0 .78 2 2.974 2.974 0 0 0 -.78 2v6a2.974 2.974 0 0 0 .78 2 2.974 2.974 0 0 0 -.78 2v6a3.009 3.009 0 0 0 3 3h23zm2-11a1 1 0 0 1 -1 1h-24a1 1 0 0 1 -1-1v-6a1 1 0 0 1 1-1h24a1 1 0 0 1 1 1zm0-10a1 1 0 0 1 -1 1h-24a1 1 0 0 1 -1-1v-6a1 1 0 0 1 1-1h24a1 1 0 0 1 1 1zm0-10a1 1 0 0 1 -1 1h-24a1 1 0 0 1 -1-1v-6a1 1 0 0 1 1-1h24a1 1 0 0 1 1 1z"/><path d="m8.445 12.832 3 2a1 1 0 1 0 1.11-1.664l-1.755-1.168 1.752-1.168a1 1 0 0 0 -1.11-1.664l-3 2a1 1 0 0 0 0 1.664z"/></g></g></svg>
+      <article class="service-card">
+
+        <svg height="24" viewBox="0 0 64 64" width="24" xmlns="http://www.w3.org/2000/svg">
+          <g id="coding-database-web_design-programing-server" data-name="coding-database-web design-programing-server">
+            <path d="m59 9v34h-54v-34a4.012 4.012 0 0 1 4-4h46a4.012 4.012 0 0 1 4 4z" fill="#ffdaaa" />
+            <path d="m25 43h34v-34a34 34 0 0 1 -34 34z" fill="#ffc477" />
+            <rect fill="#2488ff" height="10" rx="2" width="28" x="33" y="13" />
+            <path d="m37 16h8v4h-8z" fill="#7ed63e" />
+            <rect fill="#006df0" height="10" rx="2" width="28" x="33" y="23" />
+            <path d="m37 26h8v4h-8z" fill="#7ed63e" />
+            <rect fill="#57a4ff" height="10" rx="2" width="28" x="33" y="3" />
+            <path d="m37 6h8v4h-8z" fill="#7ed63e" />
+            <path d="m5 43v2a4.012 4.012 0 0 0 4 4h46a4.012 4.012 0 0 0 4-4v-2z" fill="#004fac" />
+            <path d="m26 49h12v8h-12z" fill="#808285" />
+            <path d="m19 57a2 2 0 0 0 -2 2v2h30v-2a2 2 0 0 0 -2-2z" fill="#58595b" />
+            <path d="m26 49h12v2h-12z" fill="#6d6e71" />
+            <path
+              d="m59 23h-2a2.006 2.006 0 0 1 2 2v6a2.006 2.006 0 0 1 -2 2h2a2.006 2.006 0 0 0 2-2v-6a2.006 2.006 0 0 0 -2-2z"
+              fill="#005ece" />
+            <path
+              d="m59 13h-2a2.006 2.006 0 0 1 2 2v6a2.006 2.006 0 0 1 -2 2h2a2.006 2.006 0 0 0 2-2v-6a2.006 2.006 0 0 0 -2-2z"
+              fill="#006df0" />
+            <path
+              d="m59 3h-2a2.006 2.006 0 0 1 2 2v6a2.006 2.006 0 0 1 -2 2h2a2.006 2.006 0 0 0 2-2v-6a2.006 2.006 0 0 0 -2-2z"
+              fill="#2488ff" />
+            <g fill="#231f20">
+              <path
+                d="m21.168 14.555a1 1 0 0 0 1.387.277l3-2a1 1 0 0 0 0-1.664l-3-2a1 1 0 0 0 -1.11 1.664l1.755 1.168-1.752 1.168a1 1 0 0 0 -.28 1.387z" />
+              <path
+                d="m14.5 15.868a.988.988 0 0 0 .5.132 1 1 0 0 0 .869-.5l4-7a1 1 0 1 0 -1.737-1l-4 7a1 1 0 0 0 .368 1.368z" />
+              <path d="m9 20h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z" />
+              <path d="m9 24h14a1 1 0 0 0 0-2h-14a1 1 0 0 0 0 2z" />
+              <path d="m15 20h14a1 1 0 0 0 0-2h-14a1 1 0 0 0 0 2z" />
+              <path d="m9 32h8a1 1 0 0 0 0-2h-8a1 1 0 0 0 0 2z" />
+              <path d="m23 32a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z" />
+              <path d="m9 28h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z" />
+              <path d="m29 26h-14a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2z" />
+              <path d="m9 40h14a1 1 0 0 0 0-2h-14a1 1 0 0 0 0 2z" />
+              <path d="m29 38h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" />
+              <path d="m9 36h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2z" />
+              <path d="m29 34h-14a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2z" />
+              <path d="m33 45h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z" />
+              <path d="m37 21h8a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-8a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h6v2h-6z" />
+              <path d="m53 20a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z" />
+              <path d="m49 20a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z" />
+              <path d="m57 20a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z" />
+              <path d="m45 25h-8a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1zm-1 4h-6v-2h6z" />
+              <path d="m53 26a1 1 0 0 0 -1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0 -1-1z" />
+              <path d="m49 26a1 1 0 0 0 -1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0 -1-1z" />
+              <path d="m57 26a1 1 0 0 0 -1 1v2a1 1 0 0 0 2 0v-2a1 1 0 0 0 -1-1z" />
+              <path d="m37 11h8a1 1 0 0 0 1-1v-4a1 1 0 0 0 -1-1h-8a1 1 0 0 0 -1 1v4a1 1 0 0 0 1 1zm1-4h6v2h-6z" />
+              <path d="m53 10a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z" />
+              <path d="m49 10a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z" />
+              <path d="m57 10a1 1 0 0 0 1-1v-2a1 1 0 0 0 -2 0v2a1 1 0 0 0 1 1z" />
+              <path
+                d="m62 5a3.009 3.009 0 0 0 -3-3h-24a3.01 3.01 0 0 0 -2.82 2h-23.18a5 5 0 0 0 -5 5v36a5 5 0 0 0 5 5h16v6h-6a3.009 3.009 0 0 0 -3 3v2a1 1 0 0 0 1 1h30a1 1 0 0 0 1-1v-2a3.009 3.009 0 0 0 -3-3h-6v-6h16a5 5 0 0 0 5-5v-11.18a3.01 3.01 0 0 0 2-2.82v-6a2.974 2.974 0 0 0 -.78-2 2.974 2.974 0 0 0 .78-2v-6a2.974 2.974 0 0 0 -.78-2 2.974 2.974 0 0 0 .78-2zm-17 53a1 1 0 0 1 1 1v1h-28v-1a1 1 0 0 1 1-1zm-18-2v-6h10v6zm31-11a3.009 3.009 0 0 1 -3 3h-46a3.009 3.009 0 0 1 -3-3v-1h52zm0-3h-52v-33a3.009 3.009 0 0 1 3-3h23v5a2.974 2.974 0 0 0 .78 2 2.974 2.974 0 0 0 -.78 2v6a2.974 2.974 0 0 0 .78 2 2.974 2.974 0 0 0 -.78 2v6a3.009 3.009 0 0 0 3 3h23zm2-11a1 1 0 0 1 -1 1h-24a1 1 0 0 1 -1-1v-6a1 1 0 0 1 1-1h24a1 1 0 0 1 1 1zm0-10a1 1 0 0 1 -1 1h-24a1 1 0 0 1 -1-1v-6a1 1 0 0 1 1-1h24a1 1 0 0 1 1 1zm0-10a1 1 0 0 1 -1 1h-24a1 1 0 0 1 -1-1v-6a1 1 0 0 1 1-1h24a1 1 0 0 1 1 1z" />
+              <path
+                d="m8.445 12.832 3 2a1 1 0 1 0 1.11-1.664l-1.755-1.168 1.752-1.168a1 1 0 0 0 -1.11-1.664l-3 2a1 1 0 0 0 0 1.664z" />
+            </g>
+          </g>
+        </svg>
 
         <h3>Desarrollador<i>Web</i></h3>
         <p>
-          Desarrollo sitios y aplicaciones para plataformas <i>Web</i>. Te ayudo a construir tu proyecto de principio a
-          fin: <i>Frontend</i>,
-          <i>Backend</i> y Base de Datos.
+          Desarrollo sitios y aplicaciones para plataformas <i>Web</i>. Te ayudo a construir tu proyecto <i>Frontend</i>
         </p>
       </article>
-      <article class="service-card box-shadow-1">        
-        <svg id="Filled" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m40 24h432a16 16 0 0 1 16 16v48a0 0 0 0 1 0 0h-464a0 0 0 0 1 0 0v-48a16 16 0 0 1 16-16z" fill="#2b70a8"/><path d="m24 88h464v224h-464z" fill="#fae8d8"/><path d="m88 152h96v96h-96z" fill="#fcb442"/><path d="m391.964 290.192h32a0 0 0 0 1 0 0v187.549a16 16 0 0 1 -16 16 16 16 0 0 1 -16-16v-187.549a0 0 0 0 1 0 0z" fill="#2b70a8" transform="matrix(.707 -.707 .707 .707 -157.672 403.278)"/><path d="m317.396 270.167h32v94.461h-32z" fill="#fcb442" transform="matrix(.707 -.707 .707 .707 -126.784 328.71)"/><path d="m248 120h208v48h-208z" fill="#fcb442"/><path d="m248 232 12.564 54.443a32 32 0 0 0 23.419 23.849l26.242 6.561 22.628-22.628-6.561-26.242a32 32 0 0 0 -23.849-23.419z" fill="#976048"/><path d="m496 376v-336a24.028 24.028 0 0 0 -24-24h-432a24.028 24.028 0 0 0 -24 24v336a24.028 24.028 0 0 0 24 24h158.556l-13.333 80h-33.223a8 8 0 0 0 0 16h208a8 8 0 0 0 0-16h-33.223l-13.333-80h68.613l69.589 69.589a24 24 0 0 0 33.941 0 24.028 24.028 0 0 0 0-33.941l-35.648-35.648h22.061a24.028 24.028 0 0 0 24-24zm-174.459-59.144 11.313-11.314 33.94 33.94-11.314 11.318zm-13.765-8.862-21.852-5.463a23.893 23.893 0 0 1 -17.565-17.886l-9.686-41.972 41.972 9.686a23.893 23.893 0 0 1 17.886 17.565l5.463 21.852zm32.3-17.855-6.024-24.1a39.825 39.825 0 0 0 -29.812-29.274l-54.44-12.56a8 8 0 0 0 -9.594 9.594l12.564 54.443a40 40 0 0 0 7.545 15.758h-228.315v-208h448v208h-126.061zm-300.076-258.139h432a8.009 8.009 0 0 1 8 8v40h-448v-40a8.009 8.009 0 0 1 8-8zm270.556 448h-109.112l13.333-80h82.446zm-270.556-96a8.009 8.009 0 0 1 -8-8v-56h257.828l16.306 4.076 59.923 59.924zm434.273 74.275a8 8 0 0 1 -11.314 0l-96.165-96.165 11.314-11.31 96.165 96.165a8.01 8.01 0 0 1 0 11.31zm-104.334-138.275h110.061v56a8.009 8.009 0 0 1 -8 8h-38.061z"/><path d="m272 336h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z"/><circle cx="56" cy="56" r="8"/><circle cx="88" cy="56" r="8"/><circle cx="120" cy="56" r="8"/><path d="m104 128h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z"/><path d="m152 128h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z"/><path d="m72 272h-8v-8a8 8 0 0 0 -16 0v16a8 8 0 0 0 8 8h16a8 8 0 0 0 0-16z"/><path d="m120 272h-16a8 8 0 0 0 0 16h16a8 8 0 0 0 0-16z"/><path d="m168 272h-16a8 8 0 0 0 0 16h16a8 8 0 0 0 0-16z"/><path d="m216 112h-16a8 8 0 0 0 0 16h8v8a8 8 0 0 0 16 0v-16a8 8 0 0 0 -8-8z"/><path d="m216 160a8 8 0 0 0 -8 8v16a8 8 0 0 0 16 0v-16a8 8 0 0 0 -8-8z"/><path d="m216 208a8 8 0 0 0 -8 8v16a8 8 0 0 0 16 0v-16a8 8 0 0 0 -8-8z"/><path d="m216 256a8 8 0 0 0 -8 8v8h-8a8 8 0 0 0 0 16h16a8 8 0 0 0 8-8v-16a8 8 0 0 0 -8-8z"/><path d="m56 144a8 8 0 0 0 8-8v-8h8a8 8 0 0 0 0-16h-16a8 8 0 0 0 -8 8v16a8 8 0 0 0 8 8z"/><path d="m56 192a8 8 0 0 0 8-8v-16a8 8 0 0 0 -16 0v16a8 8 0 0 0 8 8z"/><path d="m56 240a8 8 0 0 0 8-8v-16a8 8 0 0 0 -16 0v16a8 8 0 0 0 8 8z"/><path d="m296 192h-48a8 8 0 0 0 0 16h48a8 8 0 0 0 0-16z"/><path d="m456 192h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z"/><path d="m456 224h-112a8 8 0 0 0 0 16h112a8 8 0 0 0 0-16z"/><path d="m456 112h-208a8 8 0 0 0 -8 8v48a8 8 0 0 0 8 8h208a8 8 0 0 0 8-8v-48a8 8 0 0 0 -8-8zm-8 48h-192v-32h192z"/><path d="m192 152a8 8 0 0 0 -8-8h-96a8 8 0 0 0 -8 8v96a8 8 0 0 0 8 8h96a8 8 0 0 0 8-8zm-16 88h-80v-80h80z"/></svg>
-       
+      <article class="service-card">
+        <svg id="Filled" height="24" viewBox="0 0 512 512" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="m40 24h432a16 16 0 0 1 16 16v48a0 0 0 0 1 0 0h-464a0 0 0 0 1 0 0v-48a16 16 0 0 1 16-16z"
+            fill="#2b70a8" />
+          <path d="m24 88h464v224h-464z" fill="#fae8d8" />
+          <path d="m88 152h96v96h-96z" fill="#fcb442" />
+          <path
+            d="m391.964 290.192h32a0 0 0 0 1 0 0v187.549a16 16 0 0 1 -16 16 16 16 0 0 1 -16-16v-187.549a0 0 0 0 1 0 0z"
+            fill="#2b70a8" transform="matrix(.707 -.707 .707 .707 -157.672 403.278)" />
+          <path d="m317.396 270.167h32v94.461h-32z" fill="#fcb442"
+            transform="matrix(.707 -.707 .707 .707 -126.784 328.71)" />
+          <path d="m248 120h208v48h-208z" fill="#fcb442" />
+          <path
+            d="m248 232 12.564 54.443a32 32 0 0 0 23.419 23.849l26.242 6.561 22.628-22.628-6.561-26.242a32 32 0 0 0 -23.849-23.419z"
+            fill="#976048" />
+          <path
+            d="m496 376v-336a24.028 24.028 0 0 0 -24-24h-432a24.028 24.028 0 0 0 -24 24v336a24.028 24.028 0 0 0 24 24h158.556l-13.333 80h-33.223a8 8 0 0 0 0 16h208a8 8 0 0 0 0-16h-33.223l-13.333-80h68.613l69.589 69.589a24 24 0 0 0 33.941 0 24.028 24.028 0 0 0 0-33.941l-35.648-35.648h22.061a24.028 24.028 0 0 0 24-24zm-174.459-59.144 11.313-11.314 33.94 33.94-11.314 11.318zm-13.765-8.862-21.852-5.463a23.893 23.893 0 0 1 -17.565-17.886l-9.686-41.972 41.972 9.686a23.893 23.893 0 0 1 17.886 17.565l5.463 21.852zm32.3-17.855-6.024-24.1a39.825 39.825 0 0 0 -29.812-29.274l-54.44-12.56a8 8 0 0 0 -9.594 9.594l12.564 54.443a40 40 0 0 0 7.545 15.758h-228.315v-208h448v208h-126.061zm-300.076-258.139h432a8.009 8.009 0 0 1 8 8v40h-448v-40a8.009 8.009 0 0 1 8-8zm270.556 448h-109.112l13.333-80h82.446zm-270.556-96a8.009 8.009 0 0 1 -8-8v-56h257.828l16.306 4.076 59.923 59.924zm434.273 74.275a8 8 0 0 1 -11.314 0l-96.165-96.165 11.314-11.31 96.165 96.165a8.01 8.01 0 0 1 0 11.31zm-104.334-138.275h110.061v56a8.009 8.009 0 0 1 -8 8h-38.061z" />
+          <path d="m272 336h-32a8 8 0 0 0 0 16h32a8 8 0 0 0 0-16z" />
+          <circle cx="56" cy="56" r="8" />
+          <circle cx="88" cy="56" r="8" />
+          <circle cx="120" cy="56" r="8" />
+          <path d="m104 128h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z" />
+          <path d="m152 128h16a8 8 0 0 0 0-16h-16a8 8 0 0 0 0 16z" />
+          <path d="m72 272h-8v-8a8 8 0 0 0 -16 0v16a8 8 0 0 0 8 8h16a8 8 0 0 0 0-16z" />
+          <path d="m120 272h-16a8 8 0 0 0 0 16h16a8 8 0 0 0 0-16z" />
+          <path d="m168 272h-16a8 8 0 0 0 0 16h16a8 8 0 0 0 0-16z" />
+          <path d="m216 112h-16a8 8 0 0 0 0 16h8v8a8 8 0 0 0 16 0v-16a8 8 0 0 0 -8-8z" />
+          <path d="m216 160a8 8 0 0 0 -8 8v16a8 8 0 0 0 16 0v-16a8 8 0 0 0 -8-8z" />
+          <path d="m216 208a8 8 0 0 0 -8 8v16a8 8 0 0 0 16 0v-16a8 8 0 0 0 -8-8z" />
+          <path d="m216 256a8 8 0 0 0 -8 8v8h-8a8 8 0 0 0 0 16h16a8 8 0 0 0 8-8v-16a8 8 0 0 0 -8-8z" />
+          <path d="m56 144a8 8 0 0 0 8-8v-8h8a8 8 0 0 0 0-16h-16a8 8 0 0 0 -8 8v16a8 8 0 0 0 8 8z" />
+          <path d="m56 192a8 8 0 0 0 8-8v-16a8 8 0 0 0 -16 0v16a8 8 0 0 0 8 8z" />
+          <path d="m56 240a8 8 0 0 0 8-8v-16a8 8 0 0 0 -16 0v16a8 8 0 0 0 8 8z" />
+          <path d="m296 192h-48a8 8 0 0 0 0 16h48a8 8 0 0 0 0-16z" />
+          <path d="m456 192h-128a8 8 0 0 0 0 16h128a8 8 0 0 0 0-16z" />
+          <path d="m456 224h-112a8 8 0 0 0 0 16h112a8 8 0 0 0 0-16z" />
+          <path
+            d="m456 112h-208a8 8 0 0 0 -8 8v48a8 8 0 0 0 8 8h208a8 8 0 0 0 8-8v-48a8 8 0 0 0 -8-8zm-8 48h-192v-32h192z" />
+          <path d="m192 152a8 8 0 0 0 -8-8h-96a8 8 0 0 0 -8 8v96a8 8 0 0 0 8 8h96a8 8 0 0 0 8-8zm-16 88h-80v-80h80z" />
+        </svg>
+
         <h3>Diseño creativo</h3>
         <p>
           Un buen atractivo diseño <i>web</i> le ayuda a mantener sus clientes potenciales en su sitio
           que es la cara digital de su negocio.
         </p>
       </article>
-      <article class="service-card box-shadow-1">       
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="25" height="25"><title>Responsive-Website-Design-Development-Computer</title><g id="FillOutline"><polygon points="36 57 39 48 21 48 18 57 36 57" style="fill:#c7c2bc"/><path d="M33,61H11a2,2,0,0,1-2-2H9a2,2,0,0,1,2-2H33Z" style="fill:#dfd9d3"/><rect x="7" y="14" width="40" height="34" rx="3" ry="3" style="fill:#56a8c6"/><path d="M7,40v5a3,3,0,0,0,3,3H44a3,3,0,0,0,3-3V40Z" style="fill:#dfd9d3"/><rect x="11" y="22" width="8" height="5" style="fill:#f7931e"/><rect x="23" y="22" width="8" height="5" style="fill:#f7931e"/><rect x="11" y="31" width="8" height="5" style="fill:#f7931e"/><rect x="23" y="31" width="8" height="5" style="fill:#f7931e"/><rect x="35" y="22" width="8" height="5" style="fill:#f7931e"/><path d="M31,31H47a0,0,0,0,1,0,0V61a0,0,0,0,1,0,0H31a2,2,0,0,1-2-2V33a2,2,0,0,1,2-2Z" style="fill:#514d47;opacity:0.2"/><rect x="31" y="33" width="20" height="28" rx="2" ry="2" style="fill:#56a8c6"/><rect x="35" y="41" width="6" height="4" style="fill:#f7931e"/><rect x="35" y="49" width="6" height="4" style="fill:#f7931e"/><path d="M31,57v2a2,2,0,0,0,2,2H49a2,2,0,0,0,2-2V57Z" style="fill:#dfd9d3"/><path d="M45,39h6a0,0,0,0,1,0,0V61a0,0,0,0,1,0,0H45a2,2,0,0,1-2-2V41A2,2,0,0,1,45,39Z" style="fill:#514d47;opacity:0.2"/><rect x="45" y="41" width="12" height="20" rx="2" ry="2" style="fill:#56a8c6"/><path d="M45,57v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V57Z" style="fill:#dfd9d3"/><rect x="49" y="49" width="4" height="4" style="fill:#f7931e"/><rect x="34" y="36" width="2" height="2"/><rect x="38" y="36" width="10" height="2"/><path d="M35,46h6a1,1,0,0,0,1-1V41a1,1,0,0,0-1-1H35a1,1,0,0,0-1,1v4A1,1,0,0,0,35,46Zm1-4h4v2H36Z"/><path d="M35,54h6a1,1,0,0,0,1-1V49a1,1,0,0,0-1-1H35a1,1,0,0,0-1,1v4A1,1,0,0,0,35,54Zm1-4h4v2H36Z"/><rect x="52" y="44" width="2" height="2"/><rect x="48" y="44" width="2" height="2"/><path d="M49,54h4a1,1,0,0,0,1-1V49a1,1,0,0,0-1-1H49a1,1,0,0,0-1,1v4A1,1,0,0,0,49,54Zm1-4h2v2H50Z"/><rect x="26" y="43" width="2" height="2"/><path d="M10,49h9.612l-2.333,7H11a3,3,0,0,0,0,6H55a3,3,0,0,0,3-3V43a3,3,0,0,0-3-3H52V35a3,3,0,0,0-3-3H48V17a4,4,0,0,0-4-4H10a4,4,0,0,0-4,4V45A4,4,0,0,0,10,49Zm0,10a1,1,0,0,1,1-1H28V56H19.388l2.333-7H30V59a2.966,2.966,0,0,0,.184,1H11A1,1,0,0,1,10,59Zm45,1H47a1,1,0,0,1-1-1V58H56v1A1,1,0,0,1,55,60Zm1-17V56H46V43a1,1,0,0,1,1-1h8A1,1,0,0,1,56,43Zm-6-8v5H47a3,3,0,0,0-3,3V59a2.966,2.966,0,0,0,.184,1H33a1,1,0,0,1-1-1V58H42V56H32V35a1,1,0,0,1,1-1H49A1,1,0,0,1,50,35ZM10,15H44a2,2,0,0,1,2,2V32H33a3,3,0,0,0-3,3V47H10a2,2,0,0,1-2-2V41H28V39H8V17A2,2,0,0,1,10,15Z"/><rect x="10" y="17" width="2" height="2"/><rect x="14" y="17" width="30" height="2"/><path d="M11,28h8a1,1,0,0,0,1-1V22a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1v5A1,1,0,0,0,11,28Zm1-5h6v3H12Z"/><path d="M11,37h8a1,1,0,0,0,1-1V31a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1v5A1,1,0,0,0,11,37Zm1-5h6v3H12Z"/><path d="M31,21H23a1,1,0,0,0-1,1v5a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V22A1,1,0,0,0,31,21Zm-1,5H24V23h6Z"/><path d="M43,21H35a1,1,0,0,0-1,1v5a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V22A1,1,0,0,0,43,21Zm-1,5H36V23h6Z"/><path d="M22,31v5a1,1,0,0,0,1,1h5V35H24V32h6V30H23A1,1,0,0,0,22,31Z"/><rect x="60" y="44" width="2" height="14"/><path d="M50,16v7h2V16a7.008,7.008,0,0,0-7-7H28v2H45A5.006,5.006,0,0,1,50,16Z"/><rect x="24" y="9" width="2" height="2"/><rect x="2" y="21" width="2" height="22"/></g></svg>
+      <article class="service-card">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="25" height="25">
+          <title>Responsive-Website-Design-Development-Computer</title>
+          <g id="FillOutline">
+            <polygon points="36 57 39 48 21 48 18 57 36 57" style="fill:#c7c2bc" />
+            <path d="M33,61H11a2,2,0,0,1-2-2H9a2,2,0,0,1,2-2H33Z" style="fill:#dfd9d3" />
+            <rect x="7" y="14" width="40" height="34" rx="3" ry="3" style="fill:#56a8c6" />
+            <path d="M7,40v5a3,3,0,0,0,3,3H44a3,3,0,0,0,3-3V40Z" style="fill:#dfd9d3" />
+            <rect x="11" y="22" width="8" height="5" style="fill:#f7931e" />
+            <rect x="23" y="22" width="8" height="5" style="fill:#f7931e" />
+            <rect x="11" y="31" width="8" height="5" style="fill:#f7931e" />
+            <rect x="23" y="31" width="8" height="5" style="fill:#f7931e" />
+            <rect x="35" y="22" width="8" height="5" style="fill:#f7931e" />
+            <path d="M31,31H47a0,0,0,0,1,0,0V61a0,0,0,0,1,0,0H31a2,2,0,0,1-2-2V33a2,2,0,0,1,2-2Z"
+              style="fill:#514d47;opacity:0.2" />
+            <rect x="31" y="33" width="20" height="28" rx="2" ry="2" style="fill:#56a8c6" />
+            <rect x="35" y="41" width="6" height="4" style="fill:#f7931e" />
+            <rect x="35" y="49" width="6" height="4" style="fill:#f7931e" />
+            <path d="M31,57v2a2,2,0,0,0,2,2H49a2,2,0,0,0,2-2V57Z" style="fill:#dfd9d3" />
+            <path d="M45,39h6a0,0,0,0,1,0,0V61a0,0,0,0,1,0,0H45a2,2,0,0,1-2-2V41A2,2,0,0,1,45,39Z"
+              style="fill:#514d47;opacity:0.2" />
+            <rect x="45" y="41" width="12" height="20" rx="2" ry="2" style="fill:#56a8c6" />
+            <path d="M45,57v2a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V57Z" style="fill:#dfd9d3" />
+            <rect x="49" y="49" width="4" height="4" style="fill:#f7931e" />
+            <rect x="34" y="36" width="2" height="2" />
+            <rect x="38" y="36" width="10" height="2" />
+            <path d="M35,46h6a1,1,0,0,0,1-1V41a1,1,0,0,0-1-1H35a1,1,0,0,0-1,1v4A1,1,0,0,0,35,46Zm1-4h4v2H36Z" />
+            <path d="M35,54h6a1,1,0,0,0,1-1V49a1,1,0,0,0-1-1H35a1,1,0,0,0-1,1v4A1,1,0,0,0,35,54Zm1-4h4v2H36Z" />
+            <rect x="52" y="44" width="2" height="2" />
+            <rect x="48" y="44" width="2" height="2" />
+            <path d="M49,54h4a1,1,0,0,0,1-1V49a1,1,0,0,0-1-1H49a1,1,0,0,0-1,1v4A1,1,0,0,0,49,54Zm1-4h2v2H50Z" />
+            <rect x="26" y="43" width="2" height="2" />
+            <path
+              d="M10,49h9.612l-2.333,7H11a3,3,0,0,0,0,6H55a3,3,0,0,0,3-3V43a3,3,0,0,0-3-3H52V35a3,3,0,0,0-3-3H48V17a4,4,0,0,0-4-4H10a4,4,0,0,0-4,4V45A4,4,0,0,0,10,49Zm0,10a1,1,0,0,1,1-1H28V56H19.388l2.333-7H30V59a2.966,2.966,0,0,0,.184,1H11A1,1,0,0,1,10,59Zm45,1H47a1,1,0,0,1-1-1V58H56v1A1,1,0,0,1,55,60Zm1-17V56H46V43a1,1,0,0,1,1-1h8A1,1,0,0,1,56,43Zm-6-8v5H47a3,3,0,0,0-3,3V59a2.966,2.966,0,0,0,.184,1H33a1,1,0,0,1-1-1V58H42V56H32V35a1,1,0,0,1,1-1H49A1,1,0,0,1,50,35ZM10,15H44a2,2,0,0,1,2,2V32H33a3,3,0,0,0-3,3V47H10a2,2,0,0,1-2-2V41H28V39H8V17A2,2,0,0,1,10,15Z" />
+            <rect x="10" y="17" width="2" height="2" />
+            <rect x="14" y="17" width="30" height="2" />
+            <path d="M11,28h8a1,1,0,0,0,1-1V22a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1v5A1,1,0,0,0,11,28Zm1-5h6v3H12Z" />
+            <path d="M11,37h8a1,1,0,0,0,1-1V31a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1v5A1,1,0,0,0,11,37Zm1-5h6v3H12Z" />
+            <path d="M31,21H23a1,1,0,0,0-1,1v5a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V22A1,1,0,0,0,31,21Zm-1,5H24V23h6Z" />
+            <path d="M43,21H35a1,1,0,0,0-1,1v5a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V22A1,1,0,0,0,43,21Zm-1,5H36V23h6Z" />
+            <path d="M22,31v5a1,1,0,0,0,1,1h5V35H24V32h6V30H23A1,1,0,0,0,22,31Z" />
+            <rect x="60" y="44" width="2" height="14" />
+            <path d="M50,16v7h2V16a7.008,7.008,0,0,0-7-7H28v2H45A5.006,5.006,0,0,1,50,16Z" />
+            <rect x="24" y="9" width="2" height="2" />
+            <rect x="2" y="21" width="2" height="22" />
+          </g>
+        </svg>
         <h3>Diseño <i>web</i></h3>
         <p>
-          Su sitio se mostrara en cualquier disposistivo, incluidas computdadoras de 
+          Su sitio se mostrara en cualquier disposistivo, incluidas computdadoras de
           escritorio, tabletas y telefono movil.
         </p>
       </article>
-      <article class="service-card box-shadow-1">        
-        <svg height="25" viewBox="0 0 512 512" width="25" xmlns="http://www.w3.org/2000/svg"><path d="m485.808594 504.5h-459.617188c-10.324218 0-18.691406-8.367188-18.691406-18.691406v-459.617188c0-10.324218 8.367188-18.691406 18.691406-18.691406h459.617188c10.324218 0 18.691406 8.367188 18.691406 18.691406v459.617188c0 10.324218-8.367188 18.691406-18.691406 18.691406zm0 0" fill="#f2f2f2"/><path d="m485.808594 7.5h-53.714844c10.320312 0 18.691406 8.367188 18.691406 18.691406v459.617188c0 10.324218-8.371094 18.691406-18.691406 18.691406h53.714844c10.324218 0 18.691406-8.367188 18.691406-18.691406v-459.617188c0-10.324218-8.367188-18.691406-18.691406-18.691406zm0 0" fill="#cdd6df"/><path d="m485.808594 7.5h-459.617188c-10.324218 0-18.691406 8.367188-18.691406 18.691406v55.730469h497v-55.730469c0-10.324218-8.367188-18.691406-18.691406-18.691406zm0 0" fill="#426175"/><path d="m504.5 81.921875v-55.730469c0-10.324218-8.367188-18.691406-18.691406-18.691406h-53.710938c10.320313.003906 18.6875 8.367188 18.6875 18.691406v55.730469zm0 0" fill="#2c4456"/><g fill="#fed066"><path d="m379.925781 44.710938c0 5.195312-4.214843 9.410156-9.410156 9.410156s-9.410156-4.214844-9.410156-9.410156c0-5.195313 4.214843-9.410157 9.410156-9.410157s9.410156 4.214844 9.410156 9.410157zm0 0"/><path d="m425.03125 44.710938c0 5.195312-4.214844 9.410156-9.410156 9.410156-5.195313 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214843-9.410157 9.410156-9.410157 5.195312 0 9.410156 4.214844 9.410156 9.410157zm0 0"/><path d="m470.136719 44.710938c0 5.195312-4.214844 9.410156-9.410157 9.410156-5.195312 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214844-9.410157 9.410156-9.410157 5.195313 0 9.410157 4.214844 9.410157 9.410157zm0 0"/></g><path d="m406.382812 271.460938c0 83.351562-67.570312 150.917968-150.917968 150.917968-83.351563 0-150.917969-67.566406-150.917969-150.917968 0-83.347657 67.566406-150.917969 150.917969-150.917969 83.347656 0 150.917968 67.570312 150.917968 150.917969zm0 0" fill="#33bca5"/><path d="m374.894531 271.460938c0 65.960937-53.46875 119.433593-119.429687 119.433593-65.960938 0-119.433594-53.472656-119.433594-119.433593 0-65.960938 53.472656-119.433594 119.433594-119.433594 65.960937 0 119.429687 53.472656 119.429687 119.433594zm0 0" fill="#f2f2f2"/><path d="m339.914062 187.011719c-30.199218-30.199219-72.542968-40.835938-111.308593-31.929688 21.105469 4.847657 41.152343 15.488281 57.59375 31.929688 46.640625 46.640625 46.640625 122.261719 0 168.902343-16.441407 16.441407-36.488281 27.078126-57.59375 31.929688 38.765625 8.90625 81.109375-1.730469 111.308593-31.929688 46.640626-46.640624 46.640626-122.261718 0-168.902343zm0 0" fill="#cdd6df"/><path d="m477.261719 476.117188-17.144531 17.144531c-3.550782 3.546875-9.304688 3.546875-12.855469 0l-70.019531-70.019531c-3.546876-3.550782-3.546876-9.304688 0-12.855469l17.144531-17.144531c3.550781-3.550782 9.304687-3.550782 12.855469 0l70.019531 70.019531c3.546875 3.550781 3.546875 9.304687 0 12.855469zm0 0" fill="#f5b556"/><path d="m504.5 174.839844c-4.140625 0-7.5 3.355468-7.5 7.5v303.46875c0 6.171875-5.019531 11.191406-11.191406 11.191406h-18.824219l15.582031-15.582031c3.132813-3.132813 4.859375-7.300781 4.859375-11.730469s-1.726562-8.597656-4.859375-11.730469l-70.019531-70.019531c-6.46875-6.46875-16.992187-6.46875-23.460937 0l-3.269532 3.269531-13.160156-13.160156c56.535156-62.09375 54.816406-158.617187-5.175781-218.605469-61.765625-61.765625-162.265625-61.765625-224.035157 0-29.921874 29.921875-46.398437 69.703125-46.398437 112.019532 0 42.3125 16.476563 82.097656 46.398437 112.019531 30.882813 30.882812 71.449219 46.324219 112.019532 46.324219 38.230468 0 76.460937-13.722657 106.585937-41.152344l13.160157 13.160156-3.269532 3.265625c-3.132812 3.136719-4.859375 7.300781-4.859375 11.730469 0 4.433594 1.726563 8.597656 4.859375 11.730468l68.457032 68.460938h-414.207032c-6.171875 0-11.191406-5.019531-11.191406-11.191406v-65.273438c0-4.140625-3.359375-7.5-7.5-7.5s-7.5 3.359375-7.5 7.5v65.273438c0 14.441406 11.75 26.191406 26.191406 26.191406h459.617188c14.441406 0 26.191406-11.75 26.191406-26.191406v-303.46875c0-4.144532-3.359375-7.5-7.5-7.5zm-350.449219 198.035156c-27.085937-27.089844-42.003906-63.105469-42.003906-101.414062 0-38.308594 14.917969-74.324219 42.003906-101.410157 27.960938-27.960937 64.6875-41.941406 101.414063-41.941406 36.726562 0 73.453125 13.980469 101.410156 41.941406 55.917969 55.917969 55.917969 146.902344 0 202.824219-55.917969 55.917969-146.902344 55.917969-202.824219 0zm228.03125 43.9375c0-.300781.082031-.738281.464844-1.125l17.144531-17.140625c.3125-.3125.71875-.464844 1.125-.464844s.8125.152344 1.125.464844l70.019532 70.019531c.382812.382813.464843.820313.464843 1.121094s-.082031.738281-.464843 1.125l-17.144532 17.144531c-.621094.617188-1.628906.617188-2.25 0l-70.019531-70.019531c-.382813-.386719-.464844-.824219-.464844-1.125zm0 0"/><path d="m207.078125 285.199219c0-17.804688-32.695313-10.863281-32.695313-35.007813 0-14.890625 12.472657-19.316406 23.238282-19.316406 6.539062 0 18.308594 1.710938 18.308594 7.242188 0 2.015624-1.40625 5.734374-4.425782 5.734374-2.714844 0-5.332031-3.820312-13.882812-3.820312-7.34375 0-12.574219 2.816406-12.574219 9.152344 0 14.890625 32.695313 8.148437 32.695313 34.910156 0 14.386719-9.660157 21.429688-22.9375 21.429688-13.078126 0-22.234376-6.84375-22.234376-11.871094 0-2.417969 2.113282-5.734375 4.628907-5.734375 3.621093 0 6.035156 7.945312 17.203125 7.945312 7.242187 0 12.675781-3.421875 12.675781-10.664062zm0 0" fill="#fd715c"/><path d="m243.699219 263.671875h15.492187c2.214844 0 3.523438 2.011719 3.523438 4.324219 0 1.910156-1.109375 4.125-3.523438 4.125h-15.492187v23.140625h29.878906c2.210937 0 3.519531 2.210937 3.519531 4.828125 0 2.210937-1.105468 4.625-3.519531 4.625h-35.8125c-2.316406 0-4.730469-1.207032-4.730469-3.519532v-66.5c0-2.3125 2.414063-3.519531 4.730469-3.519531h35.8125c2.414063 0 3.519531 2.414063 3.519531 4.628907 0 2.613281-1.308594 4.828124-3.519531 4.828124h-29.878906zm0 0" fill="#fd715c"/><path d="m289.273438 282.886719v-29.277344c0-16.296875 9.757812-22.433594 22.535156-22.433594 12.675781 0 22.636718 6.136719 22.636718 22.433594v29.277344c0 16.296875-9.960937 22.433593-22.636718 22.433593-12.773438 0-22.535156-6.136718-22.535156-22.433593zm34.507812-29.277344c0-8.851563-4.527344-12.976563-11.972656-12.976563-7.542969 0-11.871094 4.125-11.871094 12.976563v29.277344c0 8.851562 4.328125 12.976562 11.871094 12.976562 7.445312 0 11.972656-4.125 11.972656-12.976562zm0 0" fill="#fd715c"/><path d="m379.925781 44.710938c0 5.195312-4.214843 9.410156-9.410156 9.410156s-9.410156-4.214844-9.410156-9.410156c0-5.195313 4.214843-9.410157 9.410156-9.410157s9.410156 4.214844 9.410156 9.410157zm0 0" fill="#46d1c0"/><path d="m425.03125 44.710938c0 5.195312-4.214844 9.410156-9.410156 9.410156-5.195313 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214843-9.410157 9.410156-9.410157 5.195312 0 9.410156 4.214844 9.410156 9.410157zm0 0" fill="#46d1c0"/><path d="m470.136719 44.710938c0 5.195312-4.214844 9.410156-9.410157 9.410156-5.195312 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214844-9.410157 9.410156-9.410157 5.195313 0 9.410157 4.214844 9.410157 9.410157zm0 0" fill="#46d1c0"/><path d="m233.511719 37.210938h-182.652344c-4.140625 0-7.5 3.355468-7.5 7.5 0 4.140624 3.359375 7.5 7.5 7.5h182.652344c4.140625 0 7.5-3.359376 7.5-7.5 0-4.144532-3.359375-7.5-7.5-7.5zm0 0"/><path d="m345.21875 181.707031c-23.976562-23.972656-55.851562-37.175781-89.753906-37.175781-33.90625 0-65.78125 13.203125-89.757813 37.175781-49.488281 49.492188-49.488281 130.019531 0 179.511719 23.976563 23.972656 55.851563 37.175781 89.757813 37.175781 33.902344 0 65.777344-13.203125 89.753906-37.175781 49.492188-49.492188 49.492188-130.019531 0-179.511719zm-10.605469 168.902344c-21.140625 21.144531-49.25 32.785156-79.148437 32.785156-29.898438 0-58.007813-11.644531-79.148438-32.785156-43.644531-43.640625-43.644531-114.652344 0-158.296875 21.140625-21.140625 49.25-32.78125 79.148438-32.78125 29.898437 0 58.007812 11.640625 79.148437 32.78125 43.640625 43.644531 43.640625 114.65625 0 158.296875zm0 0"/><path d="m485.808594 0h-459.617188c-14.441406 0-26.191406 11.75-26.191406 26.191406v364.378906c0 4.144532 3.359375 7.5 7.5 7.5s7.5-3.355468 7.5-7.5v-301.148437h482v62.722656c0 4.144531 3.359375 7.5 7.5 7.5s7.5-3.355469 7.5-7.5v-125.953125c0-14.441406-11.75-26.191406-26.191406-26.191406zm-470.808594 74.421875v-48.230469c0-6.171875 5.019531-11.191406 11.191406-11.191406h459.617188c6.171875 0 11.191406 5.019531 11.191406 11.191406v48.230469zm0 0"/></svg>
+      <article class="service-card">
+        <svg height="25" viewBox="0 0 512 512" width="25" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m485.808594 504.5h-459.617188c-10.324218 0-18.691406-8.367188-18.691406-18.691406v-459.617188c0-10.324218 8.367188-18.691406 18.691406-18.691406h459.617188c10.324218 0 18.691406 8.367188 18.691406 18.691406v459.617188c0 10.324218-8.367188 18.691406-18.691406 18.691406zm0 0"
+            fill="#f2f2f2" />
+          <path
+            d="m485.808594 7.5h-53.714844c10.320312 0 18.691406 8.367188 18.691406 18.691406v459.617188c0 10.324218-8.371094 18.691406-18.691406 18.691406h53.714844c10.324218 0 18.691406-8.367188 18.691406-18.691406v-459.617188c0-10.324218-8.367188-18.691406-18.691406-18.691406zm0 0"
+            fill="#cdd6df" />
+          <path
+            d="m485.808594 7.5h-459.617188c-10.324218 0-18.691406 8.367188-18.691406 18.691406v55.730469h497v-55.730469c0-10.324218-8.367188-18.691406-18.691406-18.691406zm0 0"
+            fill="#426175" />
+          <path
+            d="m504.5 81.921875v-55.730469c0-10.324218-8.367188-18.691406-18.691406-18.691406h-53.710938c10.320313.003906 18.6875 8.367188 18.6875 18.691406v55.730469zm0 0"
+            fill="#2c4456" />
+          <g fill="#fed066">
+            <path
+              d="m379.925781 44.710938c0 5.195312-4.214843 9.410156-9.410156 9.410156s-9.410156-4.214844-9.410156-9.410156c0-5.195313 4.214843-9.410157 9.410156-9.410157s9.410156 4.214844 9.410156 9.410157zm0 0" />
+            <path
+              d="m425.03125 44.710938c0 5.195312-4.214844 9.410156-9.410156 9.410156-5.195313 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214843-9.410157 9.410156-9.410157 5.195312 0 9.410156 4.214844 9.410156 9.410157zm0 0" />
+            <path
+              d="m470.136719 44.710938c0 5.195312-4.214844 9.410156-9.410157 9.410156-5.195312 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214844-9.410157 9.410156-9.410157 5.195313 0 9.410157 4.214844 9.410157 9.410157zm0 0" />
+          </g>
+          <path
+            d="m406.382812 271.460938c0 83.351562-67.570312 150.917968-150.917968 150.917968-83.351563 0-150.917969-67.566406-150.917969-150.917968 0-83.347657 67.566406-150.917969 150.917969-150.917969 83.347656 0 150.917968 67.570312 150.917968 150.917969zm0 0"
+            fill="#33bca5" />
+          <path
+            d="m374.894531 271.460938c0 65.960937-53.46875 119.433593-119.429687 119.433593-65.960938 0-119.433594-53.472656-119.433594-119.433593 0-65.960938 53.472656-119.433594 119.433594-119.433594 65.960937 0 119.429687 53.472656 119.429687 119.433594zm0 0"
+            fill="#f2f2f2" />
+          <path
+            d="m339.914062 187.011719c-30.199218-30.199219-72.542968-40.835938-111.308593-31.929688 21.105469 4.847657 41.152343 15.488281 57.59375 31.929688 46.640625 46.640625 46.640625 122.261719 0 168.902343-16.441407 16.441407-36.488281 27.078126-57.59375 31.929688 38.765625 8.90625 81.109375-1.730469 111.308593-31.929688 46.640626-46.640624 46.640626-122.261718 0-168.902343zm0 0"
+            fill="#cdd6df" />
+          <path
+            d="m477.261719 476.117188-17.144531 17.144531c-3.550782 3.546875-9.304688 3.546875-12.855469 0l-70.019531-70.019531c-3.546876-3.550782-3.546876-9.304688 0-12.855469l17.144531-17.144531c3.550781-3.550782 9.304687-3.550782 12.855469 0l70.019531 70.019531c3.546875 3.550781 3.546875 9.304687 0 12.855469zm0 0"
+            fill="#f5b556" />
+          <path
+            d="m504.5 174.839844c-4.140625 0-7.5 3.355468-7.5 7.5v303.46875c0 6.171875-5.019531 11.191406-11.191406 11.191406h-18.824219l15.582031-15.582031c3.132813-3.132813 4.859375-7.300781 4.859375-11.730469s-1.726562-8.597656-4.859375-11.730469l-70.019531-70.019531c-6.46875-6.46875-16.992187-6.46875-23.460937 0l-3.269532 3.269531-13.160156-13.160156c56.535156-62.09375 54.816406-158.617187-5.175781-218.605469-61.765625-61.765625-162.265625-61.765625-224.035157 0-29.921874 29.921875-46.398437 69.703125-46.398437 112.019532 0 42.3125 16.476563 82.097656 46.398437 112.019531 30.882813 30.882812 71.449219 46.324219 112.019532 46.324219 38.230468 0 76.460937-13.722657 106.585937-41.152344l13.160157 13.160156-3.269532 3.265625c-3.132812 3.136719-4.859375 7.300781-4.859375 11.730469 0 4.433594 1.726563 8.597656 4.859375 11.730468l68.457032 68.460938h-414.207032c-6.171875 0-11.191406-5.019531-11.191406-11.191406v-65.273438c0-4.140625-3.359375-7.5-7.5-7.5s-7.5 3.359375-7.5 7.5v65.273438c0 14.441406 11.75 26.191406 26.191406 26.191406h459.617188c14.441406 0 26.191406-11.75 26.191406-26.191406v-303.46875c0-4.144532-3.359375-7.5-7.5-7.5zm-350.449219 198.035156c-27.085937-27.089844-42.003906-63.105469-42.003906-101.414062 0-38.308594 14.917969-74.324219 42.003906-101.410157 27.960938-27.960937 64.6875-41.941406 101.414063-41.941406 36.726562 0 73.453125 13.980469 101.410156 41.941406 55.917969 55.917969 55.917969 146.902344 0 202.824219-55.917969 55.917969-146.902344 55.917969-202.824219 0zm228.03125 43.9375c0-.300781.082031-.738281.464844-1.125l17.144531-17.140625c.3125-.3125.71875-.464844 1.125-.464844s.8125.152344 1.125.464844l70.019532 70.019531c.382812.382813.464843.820313.464843 1.121094s-.082031.738281-.464843 1.125l-17.144532 17.144531c-.621094.617188-1.628906.617188-2.25 0l-70.019531-70.019531c-.382813-.386719-.464844-.824219-.464844-1.125zm0 0" />
+          <path
+            d="m207.078125 285.199219c0-17.804688-32.695313-10.863281-32.695313-35.007813 0-14.890625 12.472657-19.316406 23.238282-19.316406 6.539062 0 18.308594 1.710938 18.308594 7.242188 0 2.015624-1.40625 5.734374-4.425782 5.734374-2.714844 0-5.332031-3.820312-13.882812-3.820312-7.34375 0-12.574219 2.816406-12.574219 9.152344 0 14.890625 32.695313 8.148437 32.695313 34.910156 0 14.386719-9.660157 21.429688-22.9375 21.429688-13.078126 0-22.234376-6.84375-22.234376-11.871094 0-2.417969 2.113282-5.734375 4.628907-5.734375 3.621093 0 6.035156 7.945312 17.203125 7.945312 7.242187 0 12.675781-3.421875 12.675781-10.664062zm0 0"
+            fill="#fd715c" />
+          <path
+            d="m243.699219 263.671875h15.492187c2.214844 0 3.523438 2.011719 3.523438 4.324219 0 1.910156-1.109375 4.125-3.523438 4.125h-15.492187v23.140625h29.878906c2.210937 0 3.519531 2.210937 3.519531 4.828125 0 2.210937-1.105468 4.625-3.519531 4.625h-35.8125c-2.316406 0-4.730469-1.207032-4.730469-3.519532v-66.5c0-2.3125 2.414063-3.519531 4.730469-3.519531h35.8125c2.414063 0 3.519531 2.414063 3.519531 4.628907 0 2.613281-1.308594 4.828124-3.519531 4.828124h-29.878906zm0 0"
+            fill="#fd715c" />
+          <path
+            d="m289.273438 282.886719v-29.277344c0-16.296875 9.757812-22.433594 22.535156-22.433594 12.675781 0 22.636718 6.136719 22.636718 22.433594v29.277344c0 16.296875-9.960937 22.433593-22.636718 22.433593-12.773438 0-22.535156-6.136718-22.535156-22.433593zm34.507812-29.277344c0-8.851563-4.527344-12.976563-11.972656-12.976563-7.542969 0-11.871094 4.125-11.871094 12.976563v29.277344c0 8.851562 4.328125 12.976562 11.871094 12.976562 7.445312 0 11.972656-4.125 11.972656-12.976562zm0 0"
+            fill="#fd715c" />
+          <path
+            d="m379.925781 44.710938c0 5.195312-4.214843 9.410156-9.410156 9.410156s-9.410156-4.214844-9.410156-9.410156c0-5.195313 4.214843-9.410157 9.410156-9.410157s9.410156 4.214844 9.410156 9.410157zm0 0"
+            fill="#46d1c0" />
+          <path
+            d="m425.03125 44.710938c0 5.195312-4.214844 9.410156-9.410156 9.410156-5.195313 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214843-9.410157 9.410156-9.410157 5.195312 0 9.410156 4.214844 9.410156 9.410157zm0 0"
+            fill="#46d1c0" />
+          <path
+            d="m470.136719 44.710938c0 5.195312-4.214844 9.410156-9.410157 9.410156-5.195312 0-9.410156-4.214844-9.410156-9.410156 0-5.195313 4.214844-9.410157 9.410156-9.410157 5.195313 0 9.410157 4.214844 9.410157 9.410157zm0 0"
+            fill="#46d1c0" />
+          <path
+            d="m233.511719 37.210938h-182.652344c-4.140625 0-7.5 3.355468-7.5 7.5 0 4.140624 3.359375 7.5 7.5 7.5h182.652344c4.140625 0 7.5-3.359376 7.5-7.5 0-4.144532-3.359375-7.5-7.5-7.5zm0 0" />
+          <path
+            d="m345.21875 181.707031c-23.976562-23.972656-55.851562-37.175781-89.753906-37.175781-33.90625 0-65.78125 13.203125-89.757813 37.175781-49.488281 49.492188-49.488281 130.019531 0 179.511719 23.976563 23.972656 55.851563 37.175781 89.757813 37.175781 33.902344 0 65.777344-13.203125 89.753906-37.175781 49.492188-49.492188 49.492188-130.019531 0-179.511719zm-10.605469 168.902344c-21.140625 21.144531-49.25 32.785156-79.148437 32.785156-29.898438 0-58.007813-11.644531-79.148438-32.785156-43.644531-43.640625-43.644531-114.652344 0-158.296875 21.140625-21.140625 49.25-32.78125 79.148438-32.78125 29.898437 0 58.007812 11.640625 79.148437 32.78125 43.640625 43.644531 43.640625 114.65625 0 158.296875zm0 0" />
+          <path
+            d="m485.808594 0h-459.617188c-14.441406 0-26.191406 11.75-26.191406 26.191406v364.378906c0 4.144532 3.359375 7.5 7.5 7.5s7.5-3.355468 7.5-7.5v-301.148437h482v62.722656c0 4.144531 3.359375 7.5 7.5 7.5s7.5-3.355469 7.5-7.5v-125.953125c0-14.441406-11.75-26.191406-26.191406-26.191406zm-470.808594 74.421875v-48.230469c0-6.171875 5.019531-11.191406 11.191406-11.191406h459.617188c6.171875 0 11.191406 5.019531 11.191406 11.191406v48.230469zm0 0" />
+        </svg>
         <h3>SEO</h3>
         <p>
           <i>Search Engine Optimization</i>, optimizo tus sitios y aplicaciones <i>web</i> para que mejoren su posición
@@ -153,19 +366,135 @@
           orgánicamente.
         </p>
       </article>
-      <article class="service-card box-shadow-1">        
-        <svg height="25" viewBox="0 0 64 64" width="25" xmlns="http://www.w3.org/2000/svg"><g id="Socail_network" data-name="Socail network"><path d="m49 15a12.142 12.142 0 0 0 -1.5.1 15.979 15.979 0 0 0 -31 0 12.142 12.142 0 0 0 -1.5-.1 12 12 0 0 0 0 24h34a12 12 0 0 0 0-24z" fill="#2488ff"/><path d="m49 15a12.142 12.142 0 0 0 -1.5.1 15.992 15.992 0 0 0 -15.5-12.1c-.506 0-1.006.028-1.5.074a16 16 0 0 1 14 12.026 12.142 12.142 0 0 1 1.5-.1 12 12 0 0 1 0 24h3a12 12 0 0 0 0-24z" fill="#006df0"/><path d="m7 43a4 4 0 0 0 0 8h6v-8z" fill="#ed1c24"/><path d="m26 57v-7-6-5-2h-4v20z" fill="#808285"/><path d="m13 51 9 6v-20l-3 2-6 4z" fill="#e6e7e8"/><path d="m20 38.333v17.334l2 1.333v-20z" fill="#d1d3d4"/><path d="m9 59a2 2 0 0 0 4 0v-8h-4z" fill="#58595b"/><path d="m29 47a3 3 0 0 0 -3-3v6a3 3 0 0 0 3-3z" fill="#ed1c24"/><path d="m27 16h-6v14h6v-2-10z" fill="#00479b"/><path d="m43 18.5a1.5 1.5 0 0 0 -1.5-1.5h-4.5v-3a2 2 0 0 0 -2-2h-2v2a4 4 0 0 1 -4 4h-2v10h2l2 1h10.5a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 1.5-1.5z" fill="#ffbcab"/><path d="m53 33h-16a4 4 0 0 0 -4 4v10a4 4 0 0 0 4 4h2v6l6-6h8a4 4 0 0 0 4-4v-10a4 4 0 0 0 -4-4z" fill="#ffcd00"/><path d="m53 33h-16a4 4 0 0 0 -4 4v10a4 4 0 0 0 4 4h2v6l6-6h8a4 4 0 0 0 4-4v-10a4 4 0 0 0 -4-4z" fill="#ffcd00"/><path d="m39 55v2l6-6h-2z" fill="#ebbf00"/><path d="m53 33h-2a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h2a4 4 0 0 0 4-4v-10a4 4 0 0 0 -4-4z" fill="#ebbf00"/><g fill="#ff5023"><path d="m38 37h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z"/><path d="m38 41h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z"/><path d="m38 45h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z"/><path d="m53 37h-11a1 1 0 0 0 0 2h11a1 1 0 0 0 0-2z"/><path d="m53 41h-11a1 1 0 0 0 0 2h11a1 1 0 0 0 0-2z"/><path d="m53 45h-11a1 1 0 0 0 0 2h11a1 1 0 0 0 0-2z"/></g></g></svg>
+      <article class="service-card">
+        <svg height="25" viewBox="0 0 64 64" width="25" xmlns="http://www.w3.org/2000/svg">
+          <g id="Socail_network" data-name="Socail network">
+            <path
+              d="m49 15a12.142 12.142 0 0 0 -1.5.1 15.979 15.979 0 0 0 -31 0 12.142 12.142 0 0 0 -1.5-.1 12 12 0 0 0 0 24h34a12 12 0 0 0 0-24z"
+              fill="#2488ff" />
+            <path
+              d="m49 15a12.142 12.142 0 0 0 -1.5.1 15.992 15.992 0 0 0 -15.5-12.1c-.506 0-1.006.028-1.5.074a16 16 0 0 1 14 12.026 12.142 12.142 0 0 1 1.5-.1 12 12 0 0 1 0 24h3a12 12 0 0 0 0-24z"
+              fill="#006df0" />
+            <path d="m7 43a4 4 0 0 0 0 8h6v-8z" fill="#ed1c24" />
+            <path d="m26 57v-7-6-5-2h-4v20z" fill="#808285" />
+            <path d="m13 51 9 6v-20l-3 2-6 4z" fill="#e6e7e8" />
+            <path d="m20 38.333v17.334l2 1.333v-20z" fill="#d1d3d4" />
+            <path d="m9 59a2 2 0 0 0 4 0v-8h-4z" fill="#58595b" />
+            <path d="m29 47a3 3 0 0 0 -3-3v6a3 3 0 0 0 3-3z" fill="#ed1c24" />
+            <path d="m27 16h-6v14h6v-2-10z" fill="#00479b" />
+            <path
+              d="m43 18.5a1.5 1.5 0 0 0 -1.5-1.5h-4.5v-3a2 2 0 0 0 -2-2h-2v2a4 4 0 0 1 -4 4h-2v10h2l2 1h10.5a1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 0-3 1.5 1.5 0 0 0 1.5-1.5z"
+              fill="#ffbcab" />
+            <path d="m53 33h-16a4 4 0 0 0 -4 4v10a4 4 0 0 0 4 4h2v6l6-6h8a4 4 0 0 0 4-4v-10a4 4 0 0 0 -4-4z"
+              fill="#ffcd00" />
+            <path d="m53 33h-16a4 4 0 0 0 -4 4v10a4 4 0 0 0 4 4h2v6l6-6h8a4 4 0 0 0 4-4v-10a4 4 0 0 0 -4-4z"
+              fill="#ffcd00" />
+            <path d="m39 55v2l6-6h-2z" fill="#ebbf00" />
+            <path d="m53 33h-2a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h2a4 4 0 0 0 4-4v-10a4 4 0 0 0 -4-4z" fill="#ebbf00" />
+            <g fill="#ff5023">
+              <path d="m38 37h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z" />
+              <path d="m38 41h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z" />
+              <path d="m38 45h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z" />
+              <path d="m53 37h-11a1 1 0 0 0 0 2h11a1 1 0 0 0 0-2z" />
+              <path d="m53 41h-11a1 1 0 0 0 0 2h11a1 1 0 0 0 0-2z" />
+              <path d="m53 45h-11a1 1 0 0 0 0 2h11a1 1 0 0 0 0-2z" />
+            </g>
+          </g>
+        </svg>
         <h3>SMO</h3>
         <p>
-          <i>Social Media Optimiztion y Marketing</i> de Contenidos, 
-             te ayudo a elegir los canales digitales correctos para llegar tu audiencia ideal.
+          <i>Social Media Optimiztion y Marketing</i> de Contenidos,
+          te ayudo a elegir los canales digitales correctos para llegar tu audiencia ideal.
         </p>
       </article>
-      <article class="service-card box-shadow-1">       
-        <svg id="Capa_1" enable-background="new 0 0 512 512" height="25" viewBox="0 0 512 512" width="25" xmlns="http://www.w3.org/2000/svg"><path d="m460.78 345.496h-409.56c-11.046 0-20-8.954-20-20v-305.496c0-11.046 8.954-20 20-20h409.56c11.046 0 20 8.954 20 20v305.496c0 11.046-8.954 20-20 20z" fill="#e4f6ff"/><path d="m459.967 0h-27.057c11.495 0 20.813 9.318 20.813 20.813v303.87c0 11.495-9.318 20.813-20.813 20.813h27.057c11.495 0 20.813-9.318 20.813-20.813v-303.87c0-11.495-9.318-20.813-20.813-20.813z" fill="#d3effb"/><path d="m480.78 62.439h-449.56v-42.439c0-11.046 8.954-20 20-20h409.56c11.046 0 20 8.954 20 20z" fill="#90d8f9"/><circle cx="73.886" cy="31.22" fill="#e27a66" r="10.407"/><circle cx="116.553" cy="31.22" fill="#f4dd45" r="10.407"/><circle cx="159.22" cy="31.22" fill="#aad540" r="10.407"/><path d="m459.967 0h-27.057c11.495 0 20.813 9.318 20.813 20.813v41.626h27.057v-41.626c0-11.495-9.318-20.813-20.813-20.813z" fill="#75cef9"/><circle cx="256" cy="345.496" fill="#665e66" r="166.504"/><path d="m375.18 229.238c22.462 28.379 35.877 64.246 35.877 103.25 0 91.958-74.546 166.504-166.504 166.504-46.722 0-88.941-19.252-119.18-50.246 30.496 38.53 77.673 63.254 130.627 63.254 91.958 0 166.504-74.547 166.504-166.504 0-45.236-18.047-86.25-47.324-116.258z" fill="#544f57"/><path d="m256 480.78c-74.596 0-135.285-60.688-135.285-135.285s60.689-135.284 135.285-135.284 135.285 60.688 135.285 135.285-60.689 135.284-135.285 135.284z" fill="#d3ced5"/><path d="m256 465.171c-65.989 0-119.675-53.686-119.675-119.675s53.686-119.675 119.675-119.675 119.675 53.686 119.675 119.675-53.686 119.675-119.675 119.675z" fill="#e2dfe2"/><path d="m339.252 353.222c-4.267 0-7.726-3.459-7.726-7.726 0-41.645-33.881-75.526-75.526-75.526s-75.526 33.881-75.526 75.526c0 4.268-3.459 7.726-7.726 7.726s-7.726-3.459-7.726-7.726c0-50.166 40.813-90.979 90.978-90.979s90.978 40.813 90.978 90.979c0 4.268-3.459 7.726-7.726 7.726z" fill="#e27a66"/><path d="m299.727 301.768c-3.017-3.016-7.909-3.016-10.927 0l-22.696 22.696c-3.059-1.476-6.487-2.303-10.105-2.303-12.868 0-23.336 10.469-23.336 23.336s10.468 23.336 23.336 23.336 23.336-10.469 23.336-23.336c0-3.618-.828-7.047-2.304-10.106l22.695-22.695c3.019-3.019 3.019-7.91.001-10.928z" fill="#e27a66"/><g fill="#544f57"><path d="m263.726 210.425v18.523c0 4.265-3.461 7.726-7.726 7.726s-7.726-3.462-7.726-7.726v-18.523c2.555-.144 5.13-.216 7.726-.216s5.172.072 7.726.216z"/><path d="m217.059 215.916 6.336 17.41c1.463 4.018-.608 8.447-4.615 9.91-.876.309-1.762.464-2.637.464-3.163 0-6.119-1.947-7.263-5.089l-6.336-17.389z"/><path d="m186.051 262.13c-1.453 1.216-3.214 1.813-4.965 1.813-2.205 0-4.399-.948-5.924-2.761l-11.857-14.134c3.75-3.534 7.695-6.851 11.826-9.941l11.868 14.134c2.74 3.276 2.317 8.148-.948 10.889z"/><path d="m161.749 291.078c-1.422 2.483-4.028 3.873-6.696 3.873-1.308 0-2.637-.34-3.853-1.04l-16.019-9.241c2.328-4.615 4.924-9.076 7.747-13.372l15.999 9.23c3.697 2.133 4.965 6.862 2.822 10.55z"/><path d="m124.322 314.422v.01l18.234 3.214c4.203.742 7.016 4.749 6.274 8.952-.659 3.75-3.925 6.387-7.603 6.387-.443 0-.896-.041-1.35-.124l-18.234-3.204z"/><path d="m142.556 373.348-18.234 3.214c-1.174-4.976-2.081-10.055-2.678-15.226l18.234-3.214c4.203-.742 8.211 2.071 8.952 6.274.742 4.203-2.07 8.21-6.274 8.952z"/><path d="m309.456 221.221-6.336 17.39c-1.143 3.142-4.1 5.089-7.263 5.089-.876 0-1.762-.155-2.637-.464-4.007-1.463-6.078-5.892-4.615-9.91l6.336-17.41c4.965 1.504 9.807 3.276 14.515 5.305z"/><path d="m348.696 247.048-11.857 14.134c-1.525 1.813-3.719 2.761-5.924 2.761-1.751 0-3.513-.598-4.965-1.813-3.266-2.74-3.688-7.613-.948-10.889l11.868-14.134c4.13 3.09 8.076 6.407 11.826 9.941z"/><path d="m376.82 284.67-16.019 9.241c-1.216.7-2.544 1.04-3.853 1.04-2.668 0-5.275-1.391-6.696-3.873-2.143-3.688-.876-8.417 2.823-10.549l15.999-9.23c2.821 4.295 5.417 8.756 7.746 13.371z"/><path d="m390.356 329.658-18.234 3.204c-.453.082-.906.124-1.35.124-3.678 0-6.943-2.637-7.603-6.387-.742-4.203 2.071-8.211 6.274-8.952l18.234-3.214c1.185 4.975 2.082 10.053 2.679 15.225z"/><path d="m390.356 361.336c-.597 5.172-1.504 10.25-2.678 15.226l-18.234-3.214c-4.203-.742-7.016-4.749-6.274-8.952s4.759-7.016 8.952-6.274z"/></g><path d="m287.219 387.72h-62.439c-9.998 0-18.133 8.135-18.133 18.134v16.65c0 9.998 8.135 18.133 18.133 18.133h62.439c9.998 0 18.133-8.135 18.133-18.133v-16.65c.001-9.999-8.134-18.134-18.133-18.134z" fill="#aad540"/><path d="m155.057 105.547h-90.537c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h90.537c4.267 0 7.726 3.459 7.726 7.726 0 4.268-3.459 7.726-7.726 7.726z" fill="#665e66"/><path d="m134.244 136.767h-69.724c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h69.724c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z" fill="#665e66"/><path d="m113.431 169.027h-48.911c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h48.911c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z" fill="#665e66"/><path d="m447.48 105.547h-90.537c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h90.537c4.267 0 7.726 3.459 7.726 7.726 0 4.268-3.459 7.726-7.726 7.726z" fill="#665e66"/><path d="m447.48 136.767h-69.724c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h69.724c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z" fill="#665e66"/><path d="m301.268 105.547h-90.536c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h90.536c4.267 0 7.726 3.459 7.726 7.726 0 4.268-3.459 7.726-7.726 7.726z" fill="#665e66"/><path d="m290.862 136.767h-69.723c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h69.723c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z" fill="#665e66"/><path d="m447.48 169.027h-48.911c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h48.911c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z" fill="#665e66"/></svg>
+      <article class="service-card">
+        <svg id="Capa_1" enable-background="new 0 0 512 512" height="25" viewBox="0 0 512 512" width="25"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="m460.78 345.496h-409.56c-11.046 0-20-8.954-20-20v-305.496c0-11.046 8.954-20 20-20h409.56c11.046 0 20 8.954 20 20v305.496c0 11.046-8.954 20-20 20z"
+            fill="#e4f6ff" />
+          <path
+            d="m459.967 0h-27.057c11.495 0 20.813 9.318 20.813 20.813v303.87c0 11.495-9.318 20.813-20.813 20.813h27.057c11.495 0 20.813-9.318 20.813-20.813v-303.87c0-11.495-9.318-20.813-20.813-20.813z"
+            fill="#d3effb" />
+          <path d="m480.78 62.439h-449.56v-42.439c0-11.046 8.954-20 20-20h409.56c11.046 0 20 8.954 20 20z"
+            fill="#90d8f9" />
+          <circle cx="73.886" cy="31.22" fill="#e27a66" r="10.407" />
+          <circle cx="116.553" cy="31.22" fill="#f4dd45" r="10.407" />
+          <circle cx="159.22" cy="31.22" fill="#aad540" r="10.407" />
+          <path
+            d="m459.967 0h-27.057c11.495 0 20.813 9.318 20.813 20.813v41.626h27.057v-41.626c0-11.495-9.318-20.813-20.813-20.813z"
+            fill="#75cef9" />
+          <circle cx="256" cy="345.496" fill="#665e66" r="166.504" />
+          <path
+            d="m375.18 229.238c22.462 28.379 35.877 64.246 35.877 103.25 0 91.958-74.546 166.504-166.504 166.504-46.722 0-88.941-19.252-119.18-50.246 30.496 38.53 77.673 63.254 130.627 63.254 91.958 0 166.504-74.547 166.504-166.504 0-45.236-18.047-86.25-47.324-116.258z"
+            fill="#544f57" />
+          <path
+            d="m256 480.78c-74.596 0-135.285-60.688-135.285-135.285s60.689-135.284 135.285-135.284 135.285 60.688 135.285 135.285-60.689 135.284-135.285 135.284z"
+            fill="#d3ced5" />
+          <path
+            d="m256 465.171c-65.989 0-119.675-53.686-119.675-119.675s53.686-119.675 119.675-119.675 119.675 53.686 119.675 119.675-53.686 119.675-119.675 119.675z"
+            fill="#e2dfe2" />
+          <path
+            d="m339.252 353.222c-4.267 0-7.726-3.459-7.726-7.726 0-41.645-33.881-75.526-75.526-75.526s-75.526 33.881-75.526 75.526c0 4.268-3.459 7.726-7.726 7.726s-7.726-3.459-7.726-7.726c0-50.166 40.813-90.979 90.978-90.979s90.978 40.813 90.978 90.979c0 4.268-3.459 7.726-7.726 7.726z"
+            fill="#e27a66" />
+          <path
+            d="m299.727 301.768c-3.017-3.016-7.909-3.016-10.927 0l-22.696 22.696c-3.059-1.476-6.487-2.303-10.105-2.303-12.868 0-23.336 10.469-23.336 23.336s10.468 23.336 23.336 23.336 23.336-10.469 23.336-23.336c0-3.618-.828-7.047-2.304-10.106l22.695-22.695c3.019-3.019 3.019-7.91.001-10.928z"
+            fill="#e27a66" />
+          <g fill="#544f57">
+            <path
+              d="m263.726 210.425v18.523c0 4.265-3.461 7.726-7.726 7.726s-7.726-3.462-7.726-7.726v-18.523c2.555-.144 5.13-.216 7.726-.216s5.172.072 7.726.216z" />
+            <path
+              d="m217.059 215.916 6.336 17.41c1.463 4.018-.608 8.447-4.615 9.91-.876.309-1.762.464-2.637.464-3.163 0-6.119-1.947-7.263-5.089l-6.336-17.389z" />
+            <path
+              d="m186.051 262.13c-1.453 1.216-3.214 1.813-4.965 1.813-2.205 0-4.399-.948-5.924-2.761l-11.857-14.134c3.75-3.534 7.695-6.851 11.826-9.941l11.868 14.134c2.74 3.276 2.317 8.148-.948 10.889z" />
+            <path
+              d="m161.749 291.078c-1.422 2.483-4.028 3.873-6.696 3.873-1.308 0-2.637-.34-3.853-1.04l-16.019-9.241c2.328-4.615 4.924-9.076 7.747-13.372l15.999 9.23c3.697 2.133 4.965 6.862 2.822 10.55z" />
+            <path
+              d="m124.322 314.422v.01l18.234 3.214c4.203.742 7.016 4.749 6.274 8.952-.659 3.75-3.925 6.387-7.603 6.387-.443 0-.896-.041-1.35-.124l-18.234-3.204z" />
+            <path
+              d="m142.556 373.348-18.234 3.214c-1.174-4.976-2.081-10.055-2.678-15.226l18.234-3.214c4.203-.742 8.211 2.071 8.952 6.274.742 4.203-2.07 8.21-6.274 8.952z" />
+            <path
+              d="m309.456 221.221-6.336 17.39c-1.143 3.142-4.1 5.089-7.263 5.089-.876 0-1.762-.155-2.637-.464-4.007-1.463-6.078-5.892-4.615-9.91l6.336-17.41c4.965 1.504 9.807 3.276 14.515 5.305z" />
+            <path
+              d="m348.696 247.048-11.857 14.134c-1.525 1.813-3.719 2.761-5.924 2.761-1.751 0-3.513-.598-4.965-1.813-3.266-2.74-3.688-7.613-.948-10.889l11.868-14.134c4.13 3.09 8.076 6.407 11.826 9.941z" />
+            <path
+              d="m376.82 284.67-16.019 9.241c-1.216.7-2.544 1.04-3.853 1.04-2.668 0-5.275-1.391-6.696-3.873-2.143-3.688-.876-8.417 2.823-10.549l15.999-9.23c2.821 4.295 5.417 8.756 7.746 13.371z" />
+            <path
+              d="m390.356 329.658-18.234 3.204c-.453.082-.906.124-1.35.124-3.678 0-6.943-2.637-7.603-6.387-.742-4.203 2.071-8.211 6.274-8.952l18.234-3.214c1.185 4.975 2.082 10.053 2.679 15.225z" />
+            <path
+              d="m390.356 361.336c-.597 5.172-1.504 10.25-2.678 15.226l-18.234-3.214c-4.203-.742-7.016-4.749-6.274-8.952s4.759-7.016 8.952-6.274z" />
+          </g>
+          <path
+            d="m287.219 387.72h-62.439c-9.998 0-18.133 8.135-18.133 18.134v16.65c0 9.998 8.135 18.133 18.133 18.133h62.439c9.998 0 18.133-8.135 18.133-18.133v-16.65c.001-9.999-8.134-18.134-18.133-18.134z"
+            fill="#aad540" />
+          <path
+            d="m155.057 105.547h-90.537c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h90.537c4.267 0 7.726 3.459 7.726 7.726 0 4.268-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+          <path
+            d="m134.244 136.767h-69.724c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h69.724c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+          <path
+            d="m113.431 169.027h-48.911c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h48.911c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+          <path
+            d="m447.48 105.547h-90.537c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h90.537c4.267 0 7.726 3.459 7.726 7.726 0 4.268-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+          <path
+            d="m447.48 136.767h-69.724c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h69.724c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+          <path
+            d="m301.268 105.547h-90.536c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h90.536c4.267 0 7.726 3.459 7.726 7.726 0 4.268-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+          <path
+            d="m290.862 136.767h-69.723c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h69.723c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+          <path
+            d="m447.48 169.027h-48.911c-4.267 0-7.726-3.459-7.726-7.726 0-4.268 3.459-7.726 7.726-7.726h48.911c4.267 0 7.726 3.459 7.726 7.726s-3.459 7.726-7.726 7.726z"
+            fill="#665e66" />
+        </svg>
         <h3>Actuación</h3>
         <p>
-          Retener al usuario es fundamental para mejorar las conversiones, los sitios de 
+          Retener al usuario es fundamental para mejorar las conversiones, los sitios de
           alto rendimiento atraen y retienen al usuario.
         </p>
       </article>
@@ -180,10 +509,11 @@
         <img src="assets/portfolio-1.jpg" alt="Trabajo 1">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 1</h3>
+            <h3>React Proyecto 1</h3>            
             <p>
-              Este proyecto es una pagina <i>web</i> con un estilo casi parecido al de netflix
-              cuenta con un menu y un carousel que se convierte en en un agrid cuando es <i>responsive.</i>
+              Es una aplicación <i>web</i> Frontend usando React y la API de Criptomonedas llamada Coingecko, además del
+              framework Bootstrap. Este proyecto tiene como idea,crear con un proyecto simple y entender además algunas
+              APIs del mundo de las criptomonedas.
             </p>
           </div>
         </aside>
@@ -192,10 +522,12 @@
         <img src="assets/portfolio-2.jpg" alt="Trabajo 2">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 2</h3>
-            <p>Este proyecto es una pagina <i>web</i> solo con el formulario, es decir enfocado solo
-              en el formulario con sus validaciones, tiene estilos css y tambien es responsive,
-            las validaciones ban de la mano con estilos css.</p>
+            <h3>Rect Proyecto 2</h3>
+            <p>
+              Es una aplicación <i>web</i> Frontend usando React y <i>OMDB</i>(una API de peliculas y series) mostramos
+              las peliculas y series en tagetas, tambien podemos buscar las peliculas, y para darle dieño a nuestra
+              aplicación utilizamos Bootstrap.
+            </p>
           </div>
         </aside>
       </a>
@@ -203,43 +535,53 @@
         <img src="assets/portfolio-3.jpg" alt="Trabajo 3">
         <aside class="portfolio-card-info">
           <div>
-            <h3>Proyecto 3</h3>
-            <p>Este proyecto es una pagina <i>web</i>, un portafolio de imagenes 
-              tiene estilos css y tambien es responsive, lo interesante es que usamos una libreria
-              llamada <i>Muuri</i>.</p>
+            <h3>React Proyecto 3</h3>           
+            <p>
+              Es una aplicación <i>web</i> Frontend del Clima usando React.js, utilizamos
+              una API gratuita llamada <i>Openweathermap.org</i> para obtener los datos del clima de 
+              cualquier ciudad del Mundo.
+            </p>
           </div>
         </aside>
       </a>
       <a href="#trabajo-4" class="portfolio-card">
         <img src="assets/portfolio-4.jpg" alt="Trabajo 4">
-        <aside class="portfolio-card-info">
+        <aside class="portfolio-card-info">         
           <div>
-            <h3>Proyecto 4</h3>
-            <p>Este proyecto <i>web</i> es una <i>app</i> desarrollado con react desde cero 
-              usamos <i>APIS</i>, cuenta con buscador, botones para dar like a las img, ver las img y mas..</p>
-          </div>
-        </aside>
-      </a>
-      <a href="#trabajo-5" class="portfolio-card">
-        <img src="assets/portfolio-5.jpg" alt="Trabajo 5">
-        <aside class="portfolio-card-info">
-          <div>
-            <h3>Proyecto 5</h3>
-            <p>Este proyecto <i>web</i> es una <i>app</i> desarrollado con react desde cero 
-              usamos <i>APIS</i>, cuenta con buscador, botones para dar like a las img, ver las img y mas..</p>
-          </div>
-        </aside>
-      </a>
-      <a href="#trabajo-6" class="portfolio-card">
-        <img src="assets/portfolio-6.jpg" alt="Trabajo 6">
-        <aside class="portfolio-card-info">
-          <div>
-            <h3>Proyecto 6</h3>
-            <p>Este proyecto es una pagina <i>web</i>, que solo cuenta con un carousel que es responsive
-              la pagina tiene sus estilos css y sus media query.</p>
-          </div>
-        </aside>
-      </a>
+            <h3>JavaScript Proyecto 4</h3>
+            <p>
+              Es una aplicación <i>web</i> Frontend usando JavaScript y una libreria llamada Muuri, es una
+              galería de imágenes estilo portafolio con ventanas emergentes, categorías dinámicas y barra de búsqueda.
+            </p>
+          </div>   
+    </aside>
+    </a>
+    <a href="#trabajo-5" class="portfolio-card">
+      <img src="assets/portfolio-5.jpg" alt="Trabajo 5">
+      <aside class="portfolio-card-info">
+        <div>
+          <h3>JavaScript Proyecto 5</h3>
+          <p>
+            Es una pagina <i>web</i> Frontend estilo <i>Netflix</i>, se elaboro usando 
+            Html, Css, Flexbox y JavaScript; Tambien usamos Fontawesome para los iconos
+            y la pagina <i>web</i> tambien es responsive.
+          </p>
+        </div>
+      </aside>
+    </a>
+    
+    <a href="#trabajo-6" class="portfolio-card">
+      <img src="assets/portfolio-6.jpg" alt="Trabajo 6">
+      <aside class="portfolio-card-info">
+        <div>
+          <h3>JavaScript Proyecto 6</h3>
+          <p> 
+             Por si te interesa mi portafolio <i>web</i>, se creo solo con
+             Html, Css, JavaScript; tambien usamos una libreria.
+          </p>
+        </div>
+      </aside>
+    </a>
     </div>
   </section>
 
@@ -255,9 +597,14 @@
       <article class="portfolio-modal">
         <img src="assets/portfolio-1.jpg" alt="Trabajo 1">
         <div class="portfolio-info">
-          <h3>PAGINA WEB - ESTILO NETFLIX</h3>
-          <p>Este proyecto es una pagina <i>web</i> con un estilo casi parecido al de netflix
-             cuenta con un menu y un carousel que se convierte en en un agrid cuando es <i>responsive</i>.</p>
+          <h3>REACT-CRYPTO-MONEDAS</h3>        
+          <p>
+            Esta aplicación <i>web</i> brinda información acerca de datos de los precios de las Crypto Monedas,
+            resivimos datos y esos datos
+            lo cargamos en una tabla, cada una es un componente, tambien tenemos una barra de busqueda que podemos
+            buscar por monedas o por las iniciales como por ejemplo
+            btc, usd, etc.
+          </p>
           <aside class="portfolio-details">
             <small><b></b></small>
             <small></small>
@@ -266,7 +613,8 @@
             <small><b>TIPO:</b></small>
             <small>Frontend</small>
             <small><b>ENLACE:</b></small>
-            <small><a href="https://github.com/Bersequeira/Bersequeira.github.io" target="_blank" rel="noopener">Bersequeira.Repositorio</a></small>
+            <small><b><a href="https://bersequeira.github.io/react-crypto-moneda/" target=" _blank"
+                rel="noopener">Despliegue</a></b></small>
           </aside>
         </div>
       </article>
@@ -283,17 +631,21 @@
       <article class="portfolio-modal">
         <img src="assets/portfolio-2.jpg" alt="Trabajo 2">
         <div class="portfolio-info">
-          <h3>FORMULARIO</h3>
-          <p>Este proyecto es una pagina <i>web</i> solo con el formulario, es decir enfocado solo
-              en el formulario con sus validaciones, tiene estilos css y tambien es responsive,
-            las validaciones ban de la mano con estilos css.</p>
-          <aside class="portfolio-details">           
+          <h3>REACT-PELICULAS-OMDB</h3>         
+          <p>
+            Este proyecto es una aplicación <i>web</i> que nos permite mostrar peliculas y series, para hacer esto
+            utilizaremos una <i>API</i> de peliculas llamada <i>OMDB</i>, la aplicación tiene un cuadro de busqueda
+            y tiene unas targetas que muestra las peliculas que voy buscando, pero si busco algo que no existe manda
+            un mensaje "the are no results".
+          </p>
+          <aside class="portfolio-details">
             <small><b>FECHA:</b></small>
             <small>12/12/2020</small>
             <small><b>TIPO:</b></small>
             <small>Frontend</small>
             <small><b>ENLACE:</b></small>
-            <small><a href="https://github.com/Bersequeira/Bersequeira.github.io" target="_blank" rel="noopener">Bersequeira.Repositorio</a></small>
+            <small><b><a href="https://bersequeira.github.io/react-peliculas/" target="_blank"
+                rel="noopener">Despliegue</a></b></small>
           </aside>
         </div>
       </article>
@@ -310,17 +662,20 @@
       <article class="portfolio-modal">
         <img src="assets/portfolio-3.jpg" alt="Trabajo 3">
         <div class="portfolio-info">
-          <h3>POTAFOLIO DE IMAGENES</h3>
-          <p>Este proyecto es una pagina <i>web</i>, un portafolio de imagenes 
-             tiene estilos css y tambien es responsive, lo interesante es que usamos una libreria
-             llamada <i>Muuri</i>.</p>
-          <aside class="portfolio-details">            
+          <h3>REACT-APP-CLIMA</h3>
+          <p>
+            Este proyecto es una aplicación <i>web</i> que nos brinda datos del clima, basado en lo datos que brindamos desde la interfaz
+            colocamos el nombre de la ciudad y el pais, le damos al boton para enviar y nos muestra toda la información del clima de ese lugar
+            y si enviamos y no ingresamos los datos nos devuelve una advertencia.
+          </p>         
+          <aside class="portfolio-details">
             <small><b>FECHA:</b></small>
-            <small>04/02/2021</small>
+            <small>20/05/2021</small>
             <small><b>TIPO:</b></small>
             <small>Frontend</small>
             <small><b>ENLACE:</b></small>
-            <small><a href="https://github.com/Bersequeira/Bersequeira.github.io" target="_blank" rel="noopener">Bersequeira.Repositorio</a></small>
+            <small><b><a href="https://bersequeira.github.io/react-clima/" target="_blank"
+                rel="noopener">Despliegue</a></b></small>
           </aside>
         </div>
       </article>
@@ -337,16 +692,19 @@
       <article class="portfolio-modal">
         <img src="assets/portfolio-4.jpg" alt="Trabajo 4">
         <div class="portfolio-info">
-          <h3>APP DE PELICULAS</h3>
-          <p>Este proyecto <i>web</i> es una <i>app</i> desarrollado con react desde cero 
-             usamos una <i>APIS</i> llamada <i>OMDB</i>, cuenta con buscador para las peliculas y mas..</p>
-          <aside class="portfolio-details">           
+          <h3>JAVASCRIPT-APP-PORTAFOLIO</h3>
+          <p>
+            Este proyecto es una aplicación <i>web</i>, es un portafolio y tiene unos enlaces para filtrar los elementos
+            que tengamos en nuestra galeria para categorizarlas, los presionas y muestra las imagenes con unas
+            transiciones bien bonitas, tambien cuenta con una barra de busqueda para buscar las imagenes.
+          </p>
+          <aside class="portfolio-details">
             <small><b>FECHA:</b></small>
-            <small>02/03/2021</small>
+            <small>20/02/2021</small>
             <small><b>TIPO:</b></small>
-            <small>Frontend & Backend</small>
+            <small>Frontend</small>
             <small><b>ENLACE:</b></small>
-            <small><a href="https://github.com/Bersequeira/Bersequeira.github.io" target="_blank" rel="noopener">Bersequeira.Repositorio</a></small>
+            <small><b><a href="https://bersequeira.github.io/Portafolio%20de%20imagenes/" target="_blank" rel="noopener">Despliegue</a></b></small>
           </aside>
         </div>
       </article>
@@ -363,16 +721,19 @@
       <article class="portfolio-modal">
         <img src="assets/portfolio-5.jpg" alt="Trabajo 5">
         <div class="portfolio-info">
-          <h3>APP RED SOCIAL</h3>
-          <p>Este proyecto <i>web</i> es una <i>app</i> desarrollado con react desde cero 
-            usamos <i>APIS</i>, cuenta con buscador, botones para dar like a las img, ver las img y mas..</p>
-          <aside class="portfolio-details">          
+          <h3>JS-PAGINA-WEB-ESTILO-NETFLIX</h3>
+          <P>
+            Este proyecto es una pagina <i>web</i>, cuenta con un menu, una sección de la pelicula principal
+            un carrusel(solo con js), y cuando se pasa ha responsive el carrrusel desaparece y se vuelve un agrid.
+          </P>
+          <aside class="portfolio-details">
             <small><b>FECHA:</b></small>
-            <small>18/04/2021</small>
+            <small>18/08/2020</small>
             <small><b>TIPO:</b></small>
-            <small>Frontend & Backend</small>
+            <small>Frontend</small>
             <small><b>ENLACE:</b></small>
-            <small><a href="https://github.com/Bersequeira/Bersequeira.github.io" target="_blank" rel="noopener">Bersequeira.Repositorio</a></small>
+            <small><b><a href="https://bersequeira.github.io/Netflix" target="_blank"
+                rel="noopener">Despliegue</a></b></small>
           </aside>
         </div>
       </article>
@@ -389,68 +750,67 @@
       <article class="portfolio-modal">
         <img src="assets/portfolio-6.jpg" alt="Trabajo 6">
         <div class="portfolio-info">
-          <h3>CAROUSEL RESPONSIVE</h3>
-          <p>Este proyecto es una pagina <i>web</i>, que solo cuenta con un carousel que es responsive
-             la pagina tiene sus estilos css y sus media query.</p>
-          <aside class="portfolio-details">           
+          <h3>JAVASCRIPT-PORTAFOLIO</h3>
+          <p> 
+            Este proyecto es una pagina <i>web</i>, cuenta con un menú para navegar en cada una de las
+            secciones. Cuenta con un carousel sencillo, hecho con JavaScript & libreria.
+            Te cuento sobre mi, habilidades, proyectos y me puedes contactar;
+            Tambien la pagina es responsive. 
+          </p>
+          <aside class="portfolio-details">
             <small><b>FECHA:</b></small>
-            <small>15/09/2020</small>
+            <small>15/04/2021</small>
             <small><b>TIPO:</b></small>
             <small>Frontend</small>
             <small><b>ENLACE:</b></small>
-            <small><a href="https://github.com/Bersequeira/Bersequeira.github.io" target="_blank" rel="noopener">Bersequeira.Repositorio</a></small>
+            <small><b><a href=".." target="_blank" rel="noopener">Despliegue</a><b/></small>
           </aside>
         </div>
       </article>
     </div>
   </article>
-  
 
-  <!--testimonios-->
+  <!--tecnologias-->
   <section id="testimonios" class="testimonials">
-    <article class="hero-image"
-      style="--hero-image: url('assets/hero-image-customers.jpg'); --hero-attachment: scroll;">
-      <aside class="hero-image-opacity" style="--hero-opacity-color: var(--black-alpha-color);">
+    <article class="hero-image" style="--hero-image: url('../assets/hero-image-customers.jpg'); --hero-attachment: scroll;">
+      <aside class="hero-image-opacity" style="--hero-opacity-color: var(--whithe-alpha-color);">
         <div class="hero-image-content">
           <div class="container">
             <h2 class="tecnologia">Tecnologias</h2>
             <article class="carousel" style="--carousel-bg-color: var(--white-alpha-color);">
-              <input type="radio" name="slides" id="slide-1" checked>
-              <input type="radio" name="slides" id="slide-2">
-              <input type="radio" name="slides" id="slide-3">
-             
-              <ul class="slides">
-                <li class="slide">
-                  <img class="avatar" src="assets/customer-1.png" alt="Cliente 1">
-                  <blockquote>Es un lenguaje utlizado para estructurar y presentar el contenido en la <i>web</i> constantemente
-                    atraves de los navegadores. Este ha ido evulucionando con el tiempo hasta llegar aL HTML5
-                    actual, diseñado para ser utilizable.
+                                    
+              <div class="carousel-lista">
+                <div class="carousel-elemento"> 
+                  <img class="avatar" src="assets/customer-1.png" alt="Rock and Roll Hall of Fame">
+                  <blockquote class="normal">
+                    Es un lenguaje de etiquetas para presentar contenido en la <i>web</i>
+                    constantemente atraves de los navegadores. Este ha ido evulucionando con el tiempo hasta llegar aL HTML5; Un ejemplo de su contenido podria ser un parrafo o imagenes.
+                  </blockquote>                               
+                  <H3 class="text-first-color">ESTRUCTURA WEB</H3>                  
+                  <h6>HTML</h6>
+                </div>
+                <div class="carousel-elemento">
+                  <img class="avatar" src="assets/customer-2.png" alt="Constitution Square - Tower I">
+                  <blockquote class="normal">
+                    Es un lenguaje de diseño de paginas web, interpretado por todos los navegadores <i>web</i> graficos,
+                    independientemente del dispositivo o sitema operativo.Permite una division logica entre la estructura de <i>web</i>.
                   </blockquote>
-                  <h3 class="">ESTRUCTURA DE LA WEB</h3>
-                  <h6>HTML5</h6>
-                </li>
-                <li class="slide">
-                  <img class="avatar" src="assets/customer-2.png" alt="Cliente 2">
-                  <blockquote>Es un lenguaje de diseño de paginas web, interpretado por todos los navegadores <i>web</i> graficos,
-                    independientemente del dispositivo o sitema operativo.Permite una division logica entre la estructura de una <i>web</i>.            
+                  <H3 class="text-first-color">DISEÑO WEB</H3>
+                  <H6>CSS</H6>
+                </div>
+                <div class="carousel-elemento">
+                  <img class="avatar" src="assets/customer-3.png" alt="Empire State Building">
+                  <blockquote class="normal">
+                    Es un lenguaje de secuencias de comandos que te permite crear con tenido de actualización
+                    dinamica, controla multimedia, animar imagenes y practicamente todo lo demas.
+                    Es una tecnología esencial para la <i>web</i> y apps.
                   </blockquote>
-                  <h3 class="">DISEÑO DE LA PAGINA</h3>
-                  <h6>ESTILOS</h6>
-                </li>
-                <li class="slide">
-                  <img class="avatar" src="assets/customer-3.png" alt="Cliente 1">
-                  <blockquote>Es un lenguaje de secuencias de comandos que te permite crear con tenido de actualizacion dinamica, controla multimedia, animar imagenes y practicamente todo lo demas.
-                    Es una tecnologia esencial para la <i>web</i> y apps.
-                  </blockquote>
-                  <h3 class="">WEB DINAMICA</h3>
-                  <h6>JS</h6>
-                </li>                
-              </ul>
-              <aside class="slides-nav">
-                <label for="slide-1" id="dot-1"></label>
-                <label for="slide-2" id="dot-2"></label>
-                <label for="slide-3" id="dot-3"></label>                
-              </aside>
+                  <H3 class="text-first-color">WEB DINÁMICA</H3>
+                  <H6>JAVASCRIPT</H6>
+                </div>                                              
+              </div>           
+              
+              <div role="tablist" class="carousel-indicadores"></div>
             </article>
           </div>
         </div>
@@ -458,7 +818,7 @@
     </article>
   </section>
 
-
+  
   <!--Contacto-->
   <section id="contacto" class="contact section">
     <div class="container">
@@ -471,7 +831,7 @@
               fill="#D90062" />
           </svg>
           <h5>UBICACIÓN</h5>
-          <small><i>Nicargua</i> Managua, Nicargua</small>
+          <small><i>Nicaragua</i> Managua, Nicargua</small>
         </aside>
         <aside class="contact-card box-shadow-1">
           <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -486,10 +846,12 @@
           <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M31.375 7.9375C29.9375 9.0625 28.125 10.4375 21.75 15.0625C20.5 16 18.1875 18.0625 16 18.0625C13.75 18.0625 11.5 16 10.1875 15.0625C3.8125 10.4375 2 9.0625 0.5625 7.9375C0.3125 7.75 0 7.9375 0 8.25V21C0 22.6875 1.3125 24 3 24H29C30.625 24 32 22.6875 32 21V8.25C32 7.9375 31.625 7.75 31.375 7.9375ZM16 16C17.4375 16.0625 19.5 14.1875 20.5625 13.4375C28.875 7.4375 29.5 6.875 31.375 5.375C31.75 5.125 32 4.6875 32 4.1875V3C32 1.375 30.625 0 29 0H3C1.3125 0 0 1.375 0 3V4.1875C0 4.6875 0.1875 5.125 0.5625 5.375C2.4375 6.875 3.0625 7.4375 11.375 13.4375C12.4375 14.1875 14.5 16.0625 16 16Z"
-              fill="#D90062" />
+              fill="#D90062"/>
           </svg>
           <h5>EMAIL</h5>
-          <small><a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">bersuarezsequeira@gmail.com</a></small>
+          <small><a
+              href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+              target="_blank">bersuarezsequeira@gmail.com</a></small>
         </aside>
         <aside class="contact-card box-shadow-1">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -498,39 +860,12 @@
           </svg>
           <h5>SOCIAL MEDIA</h5>
           <small class="social-media">
-            <!-- <a href="https://youtube.com/jonmircha" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M21.593,7.203c-0.23-0.858-0.905-1.535-1.762-1.766C18.265,5.007,12,5,12,5S5.736,4.993,4.169,5.404	c-0.84,0.229-1.534,0.921-1.766,1.778c-0.413,1.566-0.417,4.814-0.417,4.814s-0.004,3.264,0.406,4.814	c0.23,0.857,0.905,1.534,1.763,1.765c1.582,0.43,7.83,0.437,7.83,0.437s6.265,0.007,7.831-0.403c0.856-0.23,1.534-0.906,1.767-1.763	C21.997,15.281,22,12.034,22,12.034S22.02,8.769,21.593,7.203z M9.996,15.005l0.005-6l5.207,3.005L9.996,15.005z" />
-              </svg>
-            </a> -->
-           <!--  <a href="https://twitter.com/jonmircha" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809	c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793	c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05	c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032	c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028	c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22	c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z" />
-              </svg>
-            </a> -->
             <a href="https://github.com/Bersequeira" target="_blank" rel="noopener">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M12.026,2c-5.509,0-9.974,4.465-9.974,9.974c0,4.406,2.857,8.145,6.821,9.465	c0.499,0.09,0.679-0.217,0.679-0.481c0-0.237-0.008-0.865-0.011-1.696c-2.775,0.602-3.361-1.338-3.361-1.338	c-0.452-1.152-1.107-1.459-1.107-1.459c-0.905-0.619,0.069-0.605,0.069-0.605c1.002,0.07,1.527,1.028,1.527,1.028	c0.89,1.524,2.336,1.084,2.902,0.829c0.091-0.645,0.351-1.085,0.635-1.334c-2.214-0.251-4.542-1.107-4.542-4.93	c0-1.087,0.389-1.979,1.024-2.675c-0.101-0.253-0.446-1.268,0.099-2.64c0,0,0.837-0.269,2.742,1.021	c0.798-0.221,1.649-0.332,2.496-0.336c0.849,0.004,1.701,0.115,2.496,0.336c1.906-1.291,2.742-1.021,2.742-1.021	c0.545,1.372,0.203,2.387,0.099,2.64c0.64,0.696,1.024,1.587,1.024,2.675c0,3.833-2.33,4.675-4.552,4.922	c0.355,0.308,0.675,0.916,0.675,1.846c0,1.334-0.012,2.41-0.012,2.737c0,0.267,0.178,0.577,0.687,0.479	C19.146,20.115,22,16.379,22,11.974C22,6.465,17.535,2,12.026,2z" />
               </svg>
             </a>
-            <!-- <a href="https://www.linkedin.com/in/jonmircha/" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667	v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548	S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248	h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z" />
-              </svg>
-            </a> -->
-            <!-- <a href="https://instagram.com/jonmircha" target="_blank" rel="noopener">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624	C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003	c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z" />
-                <circle cx="16.806" cy="7.207" r="1.078" />
-                <path
-                  d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42	c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111	c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71	c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45	c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633	c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311	c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311	c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654	c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712	c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055	c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669	c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z" />
-              </svg>
-            </a> -->
           </small>
         </aside>
       </article>
@@ -548,7 +883,7 @@
       </form>
       <!--Ventana modal-->
       <article id="gracias" class="modal none">
-        <div class="modal-content"> 
+        <div class="modal-content">
           <article class="contact-form-response">
             <h3>
               ¡Muchas Gracias!
@@ -568,8 +903,9 @@
     </div>
   </section>
   <footer class="footer">
-    <small>Sitio diseñado por <a href="#" class="#inicio"  rel="noopener">BerSuarez</a></small>
+    <small>Sitio diseñado por <a href="#" class="#inicio" rel="noopener">BerSuarez</a></small>
   </footer>
-  <script src="script.js"></script>
+  <script src="js/glider.min.js"></script>
+  <script src="JS/script.js"></script>
 </body>
 </html>
