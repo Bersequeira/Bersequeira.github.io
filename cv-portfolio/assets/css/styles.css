@@ -148,12 +148,16 @@ img {
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
-/**/
 
-.full-screen {
-  width: 100%;
-  height: 100vh;
+
+@media screen and (min-width:1024px) {
+    .full-screen {
+      width: 100%;
+      height: 100vh;
+   }
 }
+
+
 
 .box-shadow-1 {
   /*   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25); */
@@ -875,22 +879,11 @@ img {
   color: var(--title-color);
 }
 
-
 .contact-form textarea {
   border: thin solid var(--text-color-light);
   border-radius: .3rem;
   resize: none;
-  color: var(--title-color);
-}
-
-.contact-form input:focus {
-  border: thin solid var(--text-color-light);
-  border-radius: .3rem;
-}
-
-.contact-form textarea:focus{
-  border: thin solid var(--text-color-light);
-  border-radius: .3rem;
+  color: var(--text-color-light);
 }
 
 
