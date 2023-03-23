@@ -883,7 +883,7 @@ img {
   border: thin solid var(--text-color-light);
   border-radius: .3rem;
   resize: none;
-  color: var(--text-color-light);
+  color: var(--title-color);
 }
 
 
