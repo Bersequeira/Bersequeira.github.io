@@ -869,7 +869,7 @@ img {
 .contact-form textarea {
   font-size: .85rem;
   font-family: var(--font-medium);
-  background-color: var(--input-color);
+  background-color: transparent;
 }
 
 .contact-form input[type="text"],
